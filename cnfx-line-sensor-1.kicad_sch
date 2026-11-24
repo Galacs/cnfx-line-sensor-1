@@ -7263,22 +7263,10 @@
 		(uuid "05363f90-5201-42a6-b867-d590cf8f18d4")
 	)
 	(junction
-		(at 34.29 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0806f87f-163a-4a67-85dd-350aa8a196d8")
-	)
-	(junction
 		(at 116.84 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "09562224-38f0-4f25-81b6-9474bfa1c192")
-	)
-	(junction
-		(at 34.29 102.87)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0bd07703-fe33-40cd-b4ac-845600b1a871")
 	)
 	(junction
 		(at 86.36 60.96)
@@ -7329,22 +7317,40 @@
 		(uuid "2179c785-59c1-46d5-9fb3-9fca1ff45138")
 	)
 	(junction
-		(at 72.39 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "23d18a6e-85c3-4ea1-94d5-a925418ed24d")
-	)
-	(junction
 		(at 114.3 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "293fcd40-f506-4e5e-92cf-e4aec66cf919")
 	)
 	(junction
+		(at 72.39 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "29443aa8-8305-429c-b136-fc327fe428ed")
+	)
+	(junction
 		(at 267.97 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2c49d785-be64-4efc-8528-fed44588d54d")
+	)
+	(junction
+		(at 34.29 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2f03cda9-a8a0-4b07-aaae-fc53e6356069")
+	)
+	(junction
+		(at 72.39 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "319bea67-67a5-4c89-8021-39786278d228")
+	)
+	(junction
+		(at 34.29 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "32e9f301-8b8c-4bfe-9a66-a526b63681a8")
 	)
 	(junction
 		(at 86.36 102.87)
@@ -7365,18 +7371,6 @@
 		(uuid "36ceac64-2af6-4c70-9662-5699a314aab6")
 	)
 	(junction
-		(at 72.39 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "36f96fe9-332c-4ae3-a3f2-5ade9bbd3d86")
-	)
-	(junction
-		(at 34.29 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "38ac6d6a-e063-4eb8-a2ca-d6d011c7eb0f")
-	)
-	(junction
 		(at 24.13 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7387,18 +7381,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "42e340e3-d220-4ac0-ba18-7a29d105cde0")
-	)
-	(junction
-		(at 34.29 121.92)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "47fbdd28-0be3-4bce-81a6-9ec365d2ac4c")
-	)
-	(junction
-		(at 72.39 116.84)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4ca54dbc-94d6-4881-bc0f-068db6e9e711")
 	)
 	(junction
 		(at 266.7 104.14)
@@ -7413,10 +7395,10 @@
 		(uuid "52791fec-ed96-4977-9ebc-272b99f02338")
 	)
 	(junction
-		(at 34.29 93.98)
+		(at 34.29 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "53a9a185-ad98-4bf8-994a-19486b82280a")
+		(uuid "57f5f23b-b2d5-4ea9-876d-d811f3e4e7c9")
 	)
 	(junction
 		(at 199.39 146.05)
@@ -7455,16 +7437,16 @@
 		(uuid "66fd61f4-4375-4354-a845-77bff6f35678")
 	)
 	(junction
+		(at 34.29 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "691596c4-20f8-4524-8f56-5d2727492708")
+	)
+	(junction
 		(at 256.54 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "69450c44-d1ae-4546-8e0d-8de7ee60d5e4")
-	)
-	(junction
-		(at 72.39 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6a4212b9-ad4c-41d2-83b1-e26e5c615bd5")
 	)
 	(junction
 		(at 158.75 181.61)
@@ -7527,16 +7509,10 @@
 		(uuid "834137a5-f038-450e-9454-ec45f9ddd290")
 	)
 	(junction
-		(at 34.29 88.9)
+		(at 72.39 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8d9f4e45-0c08-47ec-88e5-41b2683357d4")
-	)
-	(junction
-		(at 72.39 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8f2f10ad-8f65-4357-849e-a0b62ea191a8")
+		(uuid "873b1805-9f69-47ed-9c26-f015c0b241ee")
 	)
 	(junction
 		(at 275.59 72.39)
@@ -7551,10 +7527,22 @@
 		(uuid "90bf272f-0cb2-4347-9522-037e582e4d14")
 	)
 	(junction
+		(at 34.29 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "91c809e7-8c81-44d2-a5ab-fac43f4a9412")
+	)
+	(junction
 		(at 160.02 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9336206d-b62b-4f6d-9c43-e0a486f11770")
+	)
+	(junction
+		(at 72.39 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "96a6a378-e0c2-4043-926c-91d8b3b7e9ee")
 	)
 	(junction
 		(at 86.36 88.9)
@@ -7569,10 +7557,22 @@
 		(uuid "9ec8e380-998d-4441-a8a2-f2f935ff8d10")
 	)
 	(junction
-		(at 34.29 116.84)
+		(at 72.39 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a55ccf84-a3f7-4b7e-8741-be52c5060687")
+		(uuid "a085d586-3238-46d5-a12d-bcbde4d9e635")
+	)
+	(junction
+		(at 72.39 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a6611d0e-1b7c-4c5a-8b70-341cd6790d01")
+	)
+	(junction
+		(at 72.39 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a8aab242-a5d6-4d76-b95e-f7a024e2d1ad")
 	)
 	(junction
 		(at 146.05 44.45)
@@ -7611,10 +7611,22 @@
 		(uuid "b3a6caf7-4c97-4f23-8ca2-676297ae26a7")
 	)
 	(junction
+		(at 72.39 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b8285eb2-d170-4860-acbf-3299a1bd9d3d")
+	)
+	(junction
 		(at 35.56 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b98a9ba3-fbdb-4598-8655-39a619fd4609")
+	)
+	(junction
+		(at 34.29 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b9992c89-ac12-4f95-a81d-01ca0ef23a00")
 	)
 	(junction
 		(at 53.34 182.88)
@@ -7639,18 +7651,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bdca8937-ddc2-475f-912f-56b75944ab6a")
-	)
-	(junction
-		(at 72.39 121.92)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c0bc061e-a154-405d-a522-220f9e15585d")
-	)
-	(junction
-		(at 72.39 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c0e70936-4c8b-442a-8f83-d5f62e645c4c")
 	)
 	(junction
 		(at 20.32 74.93)
@@ -7695,10 +7695,10 @@
 		(uuid "d1b16a22-d231-44b3-8053-8e3cf988156d")
 	)
 	(junction
-		(at 72.39 74.93)
+		(at 34.29 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d697290f-66c3-455b-9c51-62ae6c89502e")
+		(uuid "d253ac3e-60a8-45e1-a1a1-0851843bdd0f")
 	)
 	(junction
 		(at 128.27 76.2)
@@ -7713,22 +7713,10 @@
 		(uuid "d8c3fd11-d45b-4fcb-83b1-7eba6bf5c986")
 	)
 	(junction
-		(at 72.39 102.87)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "db133b67-af9f-48d8-85d1-f12c699986fe")
-	)
-	(junction
 		(at 161.29 181.61)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dc5bf643-03d5-4ef5-8151-944a55ef0069")
-	)
-	(junction
-		(at 34.29 74.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dc65a1db-f9c3-443f-b60a-e79580bf07d5")
 	)
 	(junction
 		(at 269.24 74.93)
@@ -7785,6 +7773,24 @@
 		(uuid "f4114bbe-e99c-4295-955d-a870f13eeb62")
 	)
 	(junction
+		(at 72.39 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f56f10d7-c90e-446a-b721-3e54d2cedc0f")
+	)
+	(junction
+		(at 34.29 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f84bd349-96d2-49f4-9d34-2b40b7a08f3f")
+	)
+	(junction
+		(at 72.39 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f93c7934-d2ae-4b13-aa7f-5cebedce4dad")
+	)
+	(junction
 		(at 20.32 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7795,12 +7801,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fd97e8d8-df40-45e9-840e-66f5770004d6")
-	)
-	(junction
-		(at 72.39 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fe5c7abc-c76a-4cff-85db-314c5d8ec2dc")
 	)
 	(no_connect
 		(at 144.78 106.68)
@@ -8050,6 +8050,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 88.9) (xy 77.47 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0df7b12d-57a3-485a-bf67-c1d1ce99ee28")
+	)
+	(wire
+		(pts
 			(xy 53.34 182.88) (xy 55.88 182.88)
 		)
 		(stroke
@@ -8210,13 +8220,13 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 116.84) (xy 72.39 116.84)
+			(xy 72.39 102.87) (xy 77.47 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "152010e1-5d11-4e92-b7f8-99ca97d4ddad")
+		(uuid "1609edaf-3908-4f42-9421-637a49705406")
 	)
 	(wire
 		(pts
@@ -8260,7 +8270,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 88.9) (xy 71.12 88.9)
+			(xy 71.12 88.9) (xy 72.39 88.9)
 		)
 		(stroke
 			(width 0)
@@ -8297,6 +8307,16 @@
 			(type default)
 		)
 		(uuid "1d3e10ff-75c3-4f01-ad37-8487a77ec4cc")
+	)
+	(wire
+		(pts
+			(xy 34.29 102.87) (xy 35.56 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e26333e-1dd3-4927-bff7-7a2892313f12")
 	)
 	(wire
 		(pts
@@ -8420,16 +8440,6 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 74.93) (xy 34.29 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "240c5dad-d08f-4626-bb49-6cc1bdf0f860")
-	)
-	(wire
-		(pts
 			(xy 72.39 107.95) (xy 72.39 109.22)
 		)
 		(stroke
@@ -8460,7 +8470,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 60.96) (xy 72.39 60.96)
+			(xy 71.12 60.96) (xy 72.39 60.96)
 		)
 		(stroke
 			(width 0)
@@ -8750,7 +8760,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 102.87) (xy 72.39 102.87)
+			(xy 71.12 102.87) (xy 72.39 102.87)
 		)
 		(stroke
 			(width 0)
@@ -8877,6 +8887,16 @@
 			(type default)
 		)
 		(uuid "484d22ad-6af2-4277-9be3-ab373c21087e")
+	)
+	(wire
+		(pts
+			(xy 72.39 60.96) (xy 77.47 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "491422d4-eac3-47bd-965d-fe3f61af8705")
 	)
 	(wire
 		(pts
@@ -9007,16 +9027,6 @@
 			(type default)
 		)
 		(uuid "4f8fac75-f462-4ae4-a5f3-495b915ddda5")
-	)
-	(wire
-		(pts
-			(xy 34.29 116.84) (xy 35.56 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4fba9101-3a13-4c44-a867-b83228544840")
 	)
 	(wire
 		(pts
@@ -9160,6 +9170,16 @@
 	)
 	(wire
 		(pts
+			(xy 34.29 116.84) (xy 35.56 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "593fe1d5-5808-46e2-96ac-db8f5d747bd0")
+	)
+	(wire
+		(pts
 			(xy 80.01 165.1) (xy 85.09 165.1)
 		)
 		(stroke
@@ -9207,16 +9227,6 @@
 			(type default)
 		)
 		(uuid "5c071830-17e4-4f81-850f-8f73e3f41e0b")
-	)
-	(wire
-		(pts
-			(xy 72.39 102.87) (xy 71.12 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5cec899a-be40-4bd3-a811-101397d0ae1e")
 	)
 	(wire
 		(pts
@@ -9570,16 +9580,6 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 102.87) (xy 34.29 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "78f240f4-e2c6-4145-a8a0-85c5e8d29351")
-	)
-	(wire
-		(pts
 			(xy 54.61 121.92) (xy 54.61 124.46)
 		)
 		(stroke
@@ -9587,16 +9587,6 @@
 			(type default)
 		)
 		(uuid "79896102-32d2-4ae0-a15c-65641ffcf91e")
-	)
-	(wire
-		(pts
-			(xy 34.29 88.9) (xy 35.56 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7abab005-7885-4696-b056-34ff730a97ca")
 	)
 	(wire
 		(pts
@@ -10070,7 +10060,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 116.84) (xy 71.12 116.84)
+			(xy 71.12 116.84) (xy 72.39 116.84)
 		)
 		(stroke
 			(width 0)
@@ -10150,7 +10140,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 102.87) (xy 35.56 102.87)
+			(xy 29.21 102.87) (xy 34.29 102.87)
 		)
 		(stroke
 			(width 0)
@@ -10250,6 +10240,16 @@
 	)
 	(wire
 		(pts
+			(xy 34.29 88.9) (xy 35.56 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a983d006-1ad0-406f-b2d2-e6ecc375e81a")
+	)
+	(wire
+		(pts
 			(xy 250.19 156.21) (xy 250.19 157.48)
 		)
 		(stroke
@@ -10287,6 +10287,16 @@
 			(type default)
 		)
 		(uuid "ac89d46e-fe8f-4668-a7f9-6ff3582cab03")
+	)
+	(wire
+		(pts
+			(xy 72.39 74.93) (xy 77.47 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acfc844e-8900-411f-aed9-bc2a0469914c")
 	)
 	(wire
 		(pts
@@ -10620,6 +10630,16 @@
 	)
 	(wire
 		(pts
+			(xy 34.29 74.93) (xy 35.56 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3ed5364-793b-4193-bbfe-a024dcbaa834")
+	)
+	(wire
+		(pts
 			(xy 250.19 116.84) (xy 250.19 118.11)
 		)
 		(stroke
@@ -10870,6 +10890,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 116.84) (xy 77.47 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d254d7a0-9860-4d1f-947a-10a5b86ed349")
+	)
+	(wire
+		(pts
 			(xy 125.73 66.04) (xy 128.27 66.04)
 		)
 		(stroke
@@ -10900,16 +10930,6 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 88.9) (xy 72.39 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d36ba7fe-34af-426e-a5ba-361fc90e6b77")
-	)
-	(wire
-		(pts
 			(xy 275.59 72.39) (xy 275.59 76.2)
 		)
 		(stroke
@@ -10927,16 +10947,6 @@
 			(type default)
 		)
 		(uuid "d4a4abdf-a3fb-434c-ad25-6c5597b5072c")
-	)
-	(wire
-		(pts
-			(xy 72.39 74.93) (xy 71.12 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d5354771-efb4-463b-9d72-269812a85790")
 	)
 	(wire
 		(pts
@@ -11070,7 +11080,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 74.93) (xy 72.39 74.93)
+			(xy 71.12 74.93) (xy 72.39 74.93)
 		)
 		(stroke
 			(width 0)
@@ -11220,16 +11230,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 60.96) (xy 71.12 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef58f0d5-82cf-4df5-b209-4d87fb14a6bc")
-	)
-	(wire
-		(pts
 			(xy 199.39 152.4) (xy 201.93 152.4)
 		)
 		(stroke
@@ -11270,7 +11270,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 74.93) (xy 35.56 74.93)
+			(xy 29.21 74.93) (xy 34.29 74.93)
 		)
 		(stroke
 			(width 0)
@@ -12879,132 +12879,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 34.29 105.41 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0f5eb233-407d-4538-a59a-9552956b7743")
-		(property "Reference" "C20"
-			(at 32.512 104.14 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0u1"
-			(at 32.512 106.68 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 34.29 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 34.29 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 34.29 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Basic" "Y"
-			(at 34.29 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part #" "C307331"
-			(at 34.29 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics "
-			(at 34.29 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "CL05B104KB54PNC"
-			(at 34.29 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "4c89eca9-fc7a-4d78-a742-16708cfe89aa")
-		)
-		(pin "1"
-			(uuid "3cc3b7ea-c1e5-432e-871f-206b245f3134")
-		)
-		(instances
-			(project "cnfx-line-sensor-1"
-				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "C20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 71.12 180.34 270)
 		(mirror x)
@@ -14364,256 +14238,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 72.39 91.44 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1c5dc85d-4e83-4ea0-86b9-52dab372ec3a")
-		(property "Reference" "C24"
-			(at 74.168 90.17 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0u1"
-			(at 74.168 92.71 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 72.39 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 72.39 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 72.39 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Basic" "Y"
-			(at 72.39 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part #" "C307331"
-			(at 72.39 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics "
-			(at 72.39 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "CL05B104KB54PNC"
-			(at 72.39 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "7a2519a6-738c-46ca-b645-0cde8f2e14e8")
-		)
-		(pin "1"
-			(uuid "72f02230-5a57-4784-9a7f-f5d2132a5e8c")
-		)
-		(instances
-			(project "cnfx-line-sensor-1"
-				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "C24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 72.39 119.38 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1ff2aecb-daec-4dd6-b222-cac345680804")
-		(property "Reference" "C26"
-			(at 74.168 118.11 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0u1"
-			(at 74.168 120.65 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 72.39 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 72.39 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 72.39 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Basic" "Y"
-			(at 72.39 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part #" "C307331"
-			(at 72.39 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics "
-			(at 72.39 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "CL05B104KB54PNC"
-			(at 72.39 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "42dc657d-9c02-482b-b22e-42c09c5b14fc")
-		)
-		(pin "1"
-			(uuid "6e3f3170-817e-4af1-83ad-c662e08f38ac")
-		)
-		(instances
-			(project "cnfx-line-sensor-1"
-				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "C26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 121.92 76.2 270)
 		(mirror x)
@@ -15162,6 +14786,131 @@
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
 					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 72.39 63.5 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "247921a0-33fa-4872-ba15-bf9a0983ba5f")
+		(property "Reference" "C26"
+			(at 74.168 62.23 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4n7"
+			(at 74.168 64.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 72.39 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 72.39 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Basic" "Y"
+			(at 72.39 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C1538"
+			(at 72.39 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "FH (Guangdong Fenghua Advanced Tech)"
+			(at 72.39 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "0402B472K500NT"
+			(at 72.39 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f51d2808-15dd-4164-810b-c7d6611c2119")
+		)
+		(pin "1"
+			(uuid "1eb92199-f98c-403b-86e9-d0590d7ca7ee")
+		)
+		(instances
+			(project "cnfx-line-sensor-1"
+				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -15856,7 +15605,8 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 72.39 63.5 0)
+		(at 34.29 91.44 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15864,9 +15614,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "334f1002-15e1-45f9-b834-c4dd72562296")
-		(property "Reference" "C22"
-			(at 74.168 62.23 0)
+		(uuid "36b08cc6-561e-4764-872b-63c7e56598be")
+		(property "Reference" "C19"
+			(at 32.512 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15876,8 +15626,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0u1"
-			(at 74.168 64.77 0)
+		(property "Value" "4n7"
+			(at 32.512 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15888,7 +15638,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 72.39 63.5 0)
+			(at 34.29 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15899,7 +15649,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 63.5 0)
+			(at 34.29 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15910,7 +15660,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 72.39 63.5 0)
+			(at 34.29 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15921,7 +15671,7 @@
 			)
 		)
 		(property "Basic" "Y"
-			(at 72.39 63.5 0)
+			(at 34.29 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15931,8 +15681,8 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C307331"
-			(at 72.39 63.5 0)
+		(property "JLCPCB Part #" "C1538"
+			(at 34.29 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15942,8 +15692,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics "
-			(at 72.39 63.5 0)
+		(property "Manufacturer" "FH (Guangdong Fenghua Advanced Tech)"
+			(at 34.29 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15953,8 +15703,8 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "CL05B104KB54PNC"
-			(at 72.39 63.5 0)
+		(property "Manufacturer Part Number" "0402B472K500NT"
+			(at 34.29 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15965,15 +15715,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "0ea138e5-1cef-489d-b71e-1f3951e1a770")
+			(uuid "e67b7091-78fb-41c3-a249-f5b7aeebe965")
 		)
 		(pin "1"
-			(uuid "eb367efc-5033-4db4-90fd-05a5c223a4a9")
+			(uuid "07fb23b9-34d7-4335-8e13-372e1837ea28")
 		)
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "C22")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -16742,132 +16492,6 @@
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
 					(reference "C16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 34.29 77.47 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "46cb89cb-b7b0-439d-807f-75f0628b0942")
-		(property "Reference" "C18"
-			(at 32.512 76.2 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0u1"
-			(at 32.512 78.74 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 34.29 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 34.29 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 34.29 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Basic" "Y"
-			(at 34.29 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part #" "C307331"
-			(at 34.29 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics "
-			(at 34.29 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "CL05B104KB54PNC"
-			(at 34.29 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "e927a013-e245-4253-ad35-9b3fcc31be35")
-		)
-		(pin "1"
-			(uuid "cc047f31-cef5-4955-b1ba-229531ae4576")
-		)
-		(instances
-			(project "cnfx-line-sensor-1"
-				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -18652,131 +18276,6 @@
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
 					(reference "#PWR032")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 72.39 77.47 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5ae2b1f7-8498-4920-b0f3-1fe12d4bd550")
-		(property "Reference" "C23"
-			(at 74.168 76.2 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0u1"
-			(at 74.168 78.74 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 72.39 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 72.39 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 72.39 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Basic" "Y"
-			(at 72.39 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part #" "C307331"
-			(at 72.39 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics "
-			(at 72.39 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "CL05B104KB54PNC"
-			(at 72.39 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "bb2fd5da-fc05-40cf-9797-f0c99d3a1f2f")
-		)
-		(pin "1"
-			(uuid "7a8e1501-a367-4008-a1d2-e90fa2e09820")
-		)
-		(instances
-			(project "cnfx-line-sensor-1"
-				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -20754,6 +20253,131 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 72.39 91.44 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7a36cff9-3d95-4548-8fd8-1a31e3e6bf41")
+		(property "Reference" "C24"
+			(at 74.168 90.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4n7"
+			(at 74.168 92.71 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 72.39 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 72.39 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Basic" "Y"
+			(at 72.39 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C1538"
+			(at 72.39 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "FH (Guangdong Fenghua Advanced Tech)"
+			(at 72.39 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "0402B472K500NT"
+			(at 72.39 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f76843ea-e0d3-4594-9e43-82c30f23a9a7")
+		)
+		(pin "1"
+			(uuid "8b154a70-7107-4ab7-9292-782f8681cc31")
+		)
+		(instances
+			(project "cnfx-line-sensor-1"
+				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
+					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 137.16 153.67 0)
 		(unit 1)
@@ -21964,6 +21588,132 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 34.29 119.38 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8bc629d3-197f-401e-9011-8cad96e7e58c")
+		(property "Reference" "C21"
+			(at 32.512 118.11 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4n7"
+			(at 32.512 120.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 34.29 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 34.29 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Basic" "Y"
+			(at 34.29 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C1538"
+			(at 34.29 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "FH (Guangdong Fenghua Advanced Tech)"
+			(at 34.29 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "0402B472K500NT"
+			(at 34.29 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a1f300f9-d6d0-40b5-a13c-57f2c170a61c")
+		)
+		(pin "1"
+			(uuid "4df00f23-979c-4856-93c5-d3381e62422a")
+		)
+		(instances
+			(project "cnfx-line-sensor-1"
+				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
+					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 116.84 55.88 0)
 		(mirror y)
@@ -22346,7 +22096,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0u1"
+		(property "Value" "4n7"
 			(at 32.512 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22401,7 +22151,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C307331"
+		(property "JLCPCB Part #" "C1538"
 			(at 34.29 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -22412,7 +22162,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics "
+		(property "Manufacturer" "FH (Guangdong Fenghua Advanced Tech)"
 			(at 34.29 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -22423,7 +22173,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "CL05B104KB54PNC"
+		(property "Manufacturer Part Number" "0402B472K500NT"
 			(at 34.29 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -22592,132 +22342,6 @@
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
 					(reference "C30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 34.29 91.44 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "92c6145b-b7ac-48d4-9ca8-d5f43f2c4bd1")
-		(property "Reference" "C19"
-			(at 32.512 90.17 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0u1"
-			(at 32.512 92.71 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 34.29 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 34.29 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 34.29 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Basic" "Y"
-			(at 34.29 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part #" "C307331"
-			(at 34.29 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics "
-			(at 34.29 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "CL05B104KB54PNC"
-			(at 34.29 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "8b37e71c-dfb7-4c4c-a6c2-1afbe23b4d58")
-		)
-		(pin "1"
-			(uuid "852b5b97-096f-4b9a-8ab1-0c310bf93cc7")
-		)
-		(instances
-			(project "cnfx-line-sensor-1"
-				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -23078,6 +22702,131 @@
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
 					(reference "C29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 72.39 119.38 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9dca3744-8df7-43bd-9d22-423e3d4ea9b0")
+		(property "Reference" "C22"
+			(at 74.168 118.11 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4n7"
+			(at 74.168 120.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 72.39 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 72.39 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Basic" "Y"
+			(at 72.39 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C1538"
+			(at 72.39 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "FH (Guangdong Fenghua Advanced Tech)"
+			(at 72.39 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "0402B472K500NT"
+			(at 72.39 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f923445c-7cdf-47bc-bcf0-94cc092f0510")
+		)
+		(pin "1"
+			(uuid "86b1020f-9bcc-4375-b34e-e986d5b10a36")
+		)
+		(instances
+			(project "cnfx-line-sensor-1"
+				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -23802,6 +23551,132 @@
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
 					(reference "#PWR064")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 34.29 77.47 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a40b46df-f1ce-4681-b50a-ffddc57939cf")
+		(property "Reference" "C18"
+			(at 32.512 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4n7"
+			(at 32.512 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 34.29 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 34.29 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Basic" "Y"
+			(at 34.29 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C1538"
+			(at 34.29 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "FH (Guangdong Fenghua Advanced Tech)"
+			(at 34.29 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "0402B472K500NT"
+			(at 34.29 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "9069fa9e-4dff-4157-96fc-84fa54669236")
+		)
+		(pin "1"
+			(uuid "4fa156df-c3cf-4c24-970e-20dd61396328")
+		)
+		(instances
+			(project "cnfx-line-sensor-1"
+				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -25091,131 +24966,6 @@
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
 					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 72.39 105.41 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b6995d90-b794-4f9b-a98e-93b139224873")
-		(property "Reference" "C25"
-			(at 74.168 104.14 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0u1"
-			(at 74.168 106.68 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 72.39 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 72.39 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 72.39 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Basic" "Y"
-			(at 72.39 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part #" "C307331"
-			(at 72.39 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics "
-			(at 72.39 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "CL05B104KB54PNC"
-			(at 72.39 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "7ab298ed-5f83-4759-b1a8-3cb64e6c8483")
-		)
-		(pin "1"
-			(uuid "dc6483f2-780a-4b6d-b56c-4f71c0f5b990")
-		)
-		(instances
-			(project "cnfx-line-sensor-1"
-				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -26700,6 +26450,132 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 34.29 105.41 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c5c913c3-8bda-4405-8819-0f3c32b6cdc0")
+		(property "Reference" "C20"
+			(at 32.512 104.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4n7"
+			(at 32.512 106.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 34.29 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 34.29 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Basic" "Y"
+			(at 34.29 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C1538"
+			(at 34.29 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "FH (Guangdong Fenghua Advanced Tech)"
+			(at 34.29 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "0402B472K500NT"
+			(at 34.29 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "dd605a58-fe2c-4c04-91f5-248945219ef9")
+		)
+		(pin "1"
+			(uuid "26d1f840-752b-465e-ae35-2556ba772761")
+		)
+		(instances
+			(project "cnfx-line-sensor-1"
+				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
+					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 40.64 129.54 90)
 		(mirror x)
@@ -26977,6 +26853,131 @@
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 72.39 77.47 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c932563a-5065-42d6-a315-a570065cc02b")
+		(property "Reference" "C25"
+			(at 74.168 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4n7"
+			(at 74.168 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 72.39 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 72.39 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Basic" "Y"
+			(at 72.39 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C1538"
+			(at 72.39 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "FH (Guangdong Fenghua Advanced Tech)"
+			(at 72.39 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "0402B472K500NT"
+			(at 72.39 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "0f4f698d-87fa-495a-bfff-4b23c1e54b94")
+		)
+		(pin "1"
+			(uuid "cd7e21ca-6d32-4e0c-adc5-1cef46408eb2")
+		)
+		(instances
+			(project "cnfx-line-sensor-1"
+				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -28516,6 +28517,131 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 72.39 105.41 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f15100b2-8e07-4ac5-8c2e-d9ea7ba84c8b")
+		(property "Reference" "C23"
+			(at 74.168 104.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4n7"
+			(at 74.168 106.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 72.39 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 72.39 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Basic" "Y"
+			(at 72.39 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C1538"
+			(at 72.39 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "FH (Guangdong Fenghua Advanced Tech)"
+			(at 72.39 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "0402B472K500NT"
+			(at 72.39 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f44ce513-3112-47ef-a908-782e3d1d96cd")
+		)
+		(pin "1"
+			(uuid "8bf03a29-269f-40c6-b653-ad7e3237f1a9")
+		)
+		(instances
+			(project "cnfx-line-sensor-1"
+				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
+					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 25.4 160.02 0)
 		(unit 1)
@@ -28998,132 +29124,6 @@
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
 					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 34.29 119.38 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "fde60d9a-f87e-40a7-8de7-ff4620ee4501")
-		(property "Reference" "C21"
-			(at 32.512 118.11 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0u1"
-			(at 32.512 120.65 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 34.29 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 34.29 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 34.29 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Basic" "Y"
-			(at 34.29 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part #" "C307331"
-			(at 34.29 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics "
-			(at 34.29 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "CL05B104KB54PNC"
-			(at 34.29 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "28c0362c-8ca5-46b2-8dbf-0dd6cd4749d8")
-		)
-		(pin "1"
-			(uuid "40036dea-ca5c-43d4-83d5-a2e09177a682")
-		)
-		(instances
-			(project "cnfx-line-sensor-1"
-				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "C21")
 					(unit 1)
 				)
 			)
