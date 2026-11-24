@@ -1300,6 +1300,170 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Switch:SW_Push"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SW_Push_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3V3"
 			(power global)
 			(pin_numbers
@@ -1821,6 +1985,18 @@
 		)
 		(uuid "02b0d762-b670-4d0c-8b69-152878cc0db3")
 	)
+	(rectangle
+		(start 93.98 168.91)
+		(end 124.46 195.58)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "b75dda66-af1e-45b4-94b9-bbc6e1ef232d")
+	)
 	(text "TPS259472\n5V 4A EFUSE"
 		(exclude_from_sim no)
 		(at 36.576 187.96 0)
@@ -1832,6 +2008,18 @@
 			)
 		)
 		(uuid "77ee2fb8-2bf1-403f-a45c-c7d24e8a8cb3")
+	)
+	(text "Buttons"
+		(exclude_from_sim no)
+		(at 116.84 192.278 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "b6bd0839-12a6-4e28-ae24-87d83938af7d")
 	)
 	(junction
 		(at 72.39 154.94)
@@ -1874,6 +2062,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9ec8e380-998d-4441-a8a2-f2f935ff8d10")
+	)
+	(junction
+		(at 100.33 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "af033d8b-3694-47c5-b486-d1cfde43c95f")
 	)
 	(junction
 		(at 35.56 154.94)
@@ -2037,6 +2231,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 181.61) (xy 121.92 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c86140a-6a87-426f-b23a-58da002219e2")
+	)
+	(wire
+		(pts
 			(xy 80.01 154.94) (xy 80.01 156.21)
 		)
 		(stroke
@@ -2107,6 +2311,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 187.96) (xy 121.92 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58913f02-6050-46b0-9e12-f01a4f19eb17")
+	)
+	(wire
+		(pts
 			(xy 80.01 165.1) (xy 85.09 165.1)
 		)
 		(stroke
@@ -2147,6 +2361,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 189.23) (xy 100.33 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63091f6a-b4f6-49c6-8e98-b0b0c787db87")
+	)
+	(wire
+		(pts
 			(xy 66.04 180.34) (xy 66.04 181.61)
 		)
 		(stroke
@@ -2157,6 +2381,26 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 187.96) (xy 101.6 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71658825-c8e8-49ef-aaa8-35e7d07262bd")
+	)
+	(wire
+		(pts
+			(xy 100.33 175.26) (xy 100.33 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77585c8b-256f-4465-ae34-996b5f92efa1")
+	)
+	(wire
+		(pts
 			(xy 35.56 170.18) (xy 35.56 168.91)
 		)
 		(stroke
@@ -2164,6 +2408,16 @@
 			(type default)
 		)
 		(uuid "7c40be35-61ae-4c30-9a29-3bbbb80008f9")
+	)
+	(wire
+		(pts
+			(xy 111.76 175.26) (xy 121.92 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81c0b682-9310-4d58-8aff-9c6165f30f21")
 	)
 	(wire
 		(pts
@@ -2227,6 +2481,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 175.26) (xy 100.33 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3f66edc-8ea2-4b16-87f1-b9e82ea7dfbc")
+	)
+	(wire
+		(pts
 			(xy 30.48 163.83) (xy 30.48 165.1)
 		)
 		(stroke
@@ -2277,6 +2541,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 181.61) (xy 100.33 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9cec64b-e505-4d29-95f6-bba92e94a069")
+	)
+	(wire
+		(pts
 			(xy 39.37 154.94) (xy 41.91 154.94)
 		)
 		(stroke
@@ -2304,6 +2578,16 @@
 			(type default)
 		)
 		(uuid "dd35cc2b-357c-43bb-a97d-ee04d786143b")
+	)
+	(wire
+		(pts
+			(xy 101.6 175.26) (xy 100.33 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8aa052d-6478-4975-91e1-0c2e0fd3cdb5")
 	)
 	(wire
 		(pts
@@ -2404,6 +2688,160 @@
 			(justify right bottom)
 		)
 		(uuid "1e0ad640-46db-49df-b970-a2709138553f")
+	)
+	(label "BOOT"
+		(at 121.92 175.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "51cb7cfc-c27f-4ac8-a7b3-ec4ea88f23f0")
+	)
+	(label "BTN1"
+		(at 121.92 181.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a1dc9a07-4196-4f68-8800-f18bd8648c4d")
+	)
+	(label "NRST"
+		(at 121.92 187.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f7e3fd12-6cfc-4ebf-9097-27d6b8b4d73d")
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 106.68 187.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0068403a-4399-4189-bdd0-4bb381706ad2")
+		(property "Reference" "SW3"
+			(at 106.68 189.738 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 106.68 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_TS-1088-xR020"
+			(at 106.68 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 106.68 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "XUNPU"
+			(at 106.68 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "TS-1088-AR02016"
+			(at 106.68 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Basic" "Y"
+			(at 106.68 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C720477"
+			(at 106.68 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "3c629c29-cf56-4e8a-834d-5c5376238685")
+		)
+		(pin "1"
+			(uuid "d9c8a5e1-65c8-4256-b613-48afb06649d8")
+		)
+		(instances
+			(project "cnfx-line-sensor-1"
+				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -2729,6 +3167,208 @@
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
 					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 100.33 189.23 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "11544d88-ba2f-4f7e-9865-0d658d160376")
+		(property "Reference" "#PWR024"
+			(at 100.33 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 100.076 193.548 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 100.33 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9c42d85c-5200-4dc8-b406-16417e9ec9c3")
+		)
+		(instances
+			(project "cnfx-line-sensor-1"
+				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 106.68 175.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "141cd342-0123-4d9e-b60c-a49ad523fd8a")
+		(property "Reference" "SW1"
+			(at 106.68 177.038 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 106.68 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_TS-1088-xR020"
+			(at 106.68 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 106.68 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "XUNPU"
+			(at 106.68 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "TS-1088-AR02016"
+			(at 106.68 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Basic" "Y"
+			(at 106.68 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C720477"
+			(at 106.68 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "82f786e3-d797-4aa0-bea8-9b1c0bcab422")
+		)
+		(pin "1"
+			(uuid "83e4314c-45eb-492e-a4b9-dd8980ad0114")
+		)
+		(instances
+			(project "cnfx-line-sensor-1"
+				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -3825,6 +4465,130 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 106.68 181.61 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6ac11d7d-867d-4009-8339-102654f0eba3")
+		(property "Reference" "SW2"
+			(at 106.68 183.388 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 106.68 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_TS-1088-xR020"
+			(at 106.68 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 106.68 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "XUNPU"
+			(at 106.68 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "TS-1088-AR02016"
+			(at 106.68 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Basic" "Y"
+			(at 106.68 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C720477"
+			(at 106.68 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "54864565-3976-4a97-b656-c0c8036ef93c")
+		)
+		(pin "1"
+			(uuid "1d369250-1c60-4b77-ae69-f0c15759195a")
+		)
+		(instances
+			(project "cnfx-line-sensor-1"
+				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VBUS")
 		(at 27.94 154.94 0)
 		(unit 1)
@@ -3975,6 +4739,83 @@
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
 					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 100.33 173.99 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "869cec9d-e11d-4ad6-91ed-eceeb79ab91a")
+		(property "Reference" "#PWR023"
+			(at 100.33 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 103.378 170.942 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 100.33 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "84fc2f1b-5799-4397-aa8b-92eea1eeb8d9")
+		)
+		(instances
+			(project "cnfx-line-sensor-1"
+				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
