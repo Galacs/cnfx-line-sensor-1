@@ -4,6 +4,12 @@
 	(generator_version "10.0")
 	(uuid "a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c")
 	(paper "A4")
+	(title_block
+		(title "CNFX Line Sensor 1")
+		(date "2026-11-24")
+		(rev "01")
+		(company "Valrobotik")
+	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x04_Pin"
 			(pin_names
