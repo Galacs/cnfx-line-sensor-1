@@ -11995,7 +11995,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "003752b0-8ef3-4135-bd5e-bc22a4f7155a")
-		(property "Reference" "C31"
+		(property "Reference" "C29"
 			(at 238.506 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12103,7 +12103,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "C31")
+					(reference "C29")
 					(unit 1)
 				)
 			)
@@ -12120,7 +12120,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00559ddc-a776-4ed8-90eb-5ba1386f14b3")
-		(property "Reference" "J5"
+		(property "Reference" "J2"
 			(at 209.804 53.594 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12189,7 +12189,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "J5")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -12330,7 +12330,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "04852519-a41d-4c1d-85ab-b7b9784d1533")
-		(property "Reference" "H8"
+		(property "Reference" "H6"
 			(at 140.97 148.844 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12391,7 +12391,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "H8")
+					(reference "H6")
 					(unit 1)
 				)
 			)
@@ -12409,7 +12409,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "048a3566-e0f9-4fa2-8468-e75a54ceb2a6")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR031"
 			(at 114.3 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -12470,7 +12470,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "#PWR027")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -12487,7 +12487,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "04d607fa-3f58-4384-8cbb-6d596122dc57")
-		(property "Reference" "C6"
+		(property "Reference" "C16"
 			(at 117.094 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12595,7 +12595,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "C6")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -12613,7 +12613,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0b102900-ecb0-49a7-835c-0b279125b9bf")
-		(property "Reference" "R2"
+		(property "Reference" "R8"
 			(at 55.88 185.166 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12721,7 +12721,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "R2")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -12739,7 +12739,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0e9b3706-fd95-4eee-b341-26372db04c62")
-		(property "Reference" "R23"
+		(property "Reference" "R13"
 			(at 81.28 77.216 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12845,7 +12845,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "R23")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -12940,7 +12940,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0f73ced2-927c-4d75-9e14-ec042e967aa7")
-		(property "Reference" "R3"
+		(property "Reference" "R9"
 			(at 71.374 182.88 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13046,7 +13046,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "R3")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -13143,7 +13143,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "102a2ce9-63a7-4763-83fd-51fcd6caf464")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR058"
 			(at 251.46 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -13204,7 +13204,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "#PWR013")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -13221,7 +13221,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "11544d88-ba2f-4f7e-9865-0d658d160376")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR029"
 			(at 100.33 195.58 0)
 			(hide yes)
 			(show_name no)
@@ -13282,7 +13282,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "#PWR024")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -13299,7 +13299,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "138b710c-fb26-4656-9acd-69d1e4376bd7")
-		(property "Reference" "C11"
+		(property "Reference" "C20"
 			(at 128.524 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13407,7 +13407,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "C11")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -13549,7 +13549,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "144308a8-fc80-4803-9100-07754497f74c")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR049"
 			(at 231.14 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -13610,7 +13610,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "#PWR050")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -13628,7 +13628,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1486d9fb-f92b-46fd-afd6-6af26ca6f015")
-		(property "Reference" "U8"
+		(property "Reference" "U5"
 			(at 43.18 113.792 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13740,7 +13740,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "U8")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -13758,7 +13758,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "15812fc1-2244-4525-92ff-3060569c0f79")
-		(property "Reference" "C7"
+		(property "Reference" "C22"
 			(at 134.62 185.4199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13866,7 +13866,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "C7")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -13884,7 +13884,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1597005c-271c-4b3d-925c-01e11244b3ca")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR010"
 			(at 35.56 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -13945,7 +13945,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "#PWR011")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -13962,7 +13962,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "17e9cc73-4e60-4faa-91a7-5d691a4a537e")
-		(property "Reference" "R27"
+		(property "Reference" "R18"
 			(at 133.35 77.978 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14068,7 +14068,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "R27")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -14085,7 +14085,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1afea797-1753-449e-a1d0-02d5ea20d05c")
-		(property "Reference" "D8"
+		(property "Reference" "D2"
 			(at 69.088 189.23 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14204,7 +14204,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "D8")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -14221,7 +14221,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1b446cbc-6c6d-45e7-9776-13632c6e3bea")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR057"
 			(at 251.46 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -14281,7 +14281,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "#PWR012")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -14299,7 +14299,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "20a141db-8dfb-4d29-8478-7102267b7b3e")
-		(property "Reference" "C10"
+		(property "Reference" "C19"
 			(at 121.92 79.756 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14405,7 +14405,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "C10")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -14422,7 +14422,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "211c28c6-7424-40a1-8ea3-3d7258113478")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR09"
 			(at 34.29 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -14482,7 +14482,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "#PWR045")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -14500,7 +14500,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "22534744-7232-47fc-a895-62d266e43e11")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR056"
 			(at 250.19 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -14561,7 +14561,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "#PWR010")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -14578,7 +14578,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "23b9e139-77b0-4922-ac1f-1514adbe6d4f")
-		(property "Reference" "U2"
+		(property "Reference" "U6"
 			(at 56.134 148.082 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14708,7 +14708,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "U2")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -14725,7 +14725,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "24190b83-65cd-4eb2-97c8-000f647cd414")
-		(property "Reference" "U3"
+		(property "Reference" "U12"
 			(at 144.526 189.992 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14835,7 +14835,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "U3")
+					(reference "U12")
 					(unit 1)
 				)
 			)
@@ -14852,7 +14852,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "247921a0-33fa-4872-ba15-bf9a0983ba5f")
-		(property "Reference" "C26"
+		(property "Reference" "C9"
 			(at 74.168 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14960,7 +14960,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "C26")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -14977,7 +14977,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2a796bbd-bbbc-4456-84cb-d7c0ff96e690")
-		(property "Reference" "U10"
+		(property "Reference" "U8"
 			(at 63.5 71.882 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15089,7 +15089,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "U10")
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -15106,7 +15106,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2ab75dbf-c4e2-40f6-802e-915e0801c1b3")
-		(property "Reference" "R7"
+		(property "Reference" "R1"
 			(at 25.4 63.246 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15212,7 +15212,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "R7")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -15229,7 +15229,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2b25aebd-d7c6-45e2-ad2d-8e1758571975")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR048"
 			(at 229.87 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -15289,7 +15289,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "#PWR053")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -15307,7 +15307,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2c2637b8-51a4-449a-b04c-d30c7098b990")
-		(property "Reference" "C9"
+		(property "Reference" "C18"
 			(at 121.92 69.596 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15413,7 +15413,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "C9")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -15430,7 +15430,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2c53928c-8935-49ec-846e-e4fa62dbe868")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR01"
 			(at 20.32 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -15490,7 +15490,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "#PWR040")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -15665,7 +15665,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "36b08cc6-561e-4764-872b-63c7e56598be")
-		(property "Reference" "C19"
+		(property "Reference" "C3"
 			(at 32.512 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15773,7 +15773,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "C19")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -15914,7 +15914,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b8ab770-36ad-49d1-b071-90df2aa675ed")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR043"
 			(at 184.15 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -15975,7 +15975,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "#PWR038")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -15993,7 +15993,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3b97d56f-453f-4790-97ef-9d6396c1a4a6")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR015"
 			(at 54.61 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -16054,7 +16054,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "#PWR065")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -16197,7 +16197,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3df4306b-edb1-45e5-a50a-852cc40db2b8")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR044"
 			(at 187.96 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -16258,7 +16258,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "#PWR039")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -16276,7 +16276,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "406b318b-bafb-4715-89d8-60ae830fd3c3")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR04"
 			(at 30.48 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -16337,7 +16337,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "#PWR09")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -16354,7 +16354,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4073cccf-56b8-4a11-916d-60c9e62ad280")
-		(property "Reference" "TP5"
+		(property "Reference" "TP1"
 			(at 41.91 127 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16416,7 +16416,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "TP5")
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -16433,7 +16433,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "457050bb-3929-4e9b-b170-68477e189f2f")
-		(property "Reference" "C16"
+		(property "Reference" "C26"
 			(at 177.546 40.64 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16541,7 +16541,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "C16")
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -16636,7 +16636,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "47fba10e-f147-4270-bd8d-9b3eea680557")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR024"
 			(at 76.2 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -16696,7 +16696,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "#PWR020")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -16713,7 +16713,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4a87470a-b1a5-460f-a0c6-eaa543cf7ad4")
-		(property "Reference" "C14"
+		(property "Reference" "C23"
 			(at 148.844 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16821,7 +16821,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "C14")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -16919,7 +16919,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4cbb8a84-f529-4ae5-b2ca-922b605f986e")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR014"
 			(at 53.34 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -16980,7 +16980,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "#PWR015")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -16997,7 +16997,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4d09a373-1439-4c5e-904c-0829f55c880e")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR013"
 			(at 52.07 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -17057,7 +17057,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "#PWR051")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -17075,7 +17075,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4e4fbe3d-d3d9-4780-b91e-562bc00bb244")
-		(property "Reference" "U7"
+		(property "Reference" "U4"
 			(at 43.18 99.822 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17187,7 +17187,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "U7")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -17205,7 +17205,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4edf10c6-0131-47f5-be45-63f2d20cd7f9")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR012"
 			(at 45.72 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -17266,7 +17266,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "#PWR066")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -17283,7 +17283,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4fd2ce7b-2221-4c05-85b3-cb94afc9e89b")
-		(property "Reference" "JP1"
+		(property "Reference" "JP4"
 			(at 270.002 66.802 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17347,7 +17347,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "JP1")
+					(reference "JP4")
 					(unit 1)
 				)
 			)
@@ -17364,7 +17364,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "500a1af7-d897-4820-8c31-c279915d9076")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR041"
 			(at 175.26 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -17424,7 +17424,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "#PWR036")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -17441,7 +17441,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "504563db-7fb4-452c-a7e1-e9564bda46f3")
-		(property "Reference" "C3"
+		(property "Reference" "C7"
 			(at 44.196 176.53 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17506,7 +17506,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "C3")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -17523,7 +17523,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "50be421b-0513-4a1b-9250-06c07df43b99")
-		(property "Reference" "R12"
+		(property "Reference" "R21"
 			(at 261.112 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17631,7 +17631,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "R12")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -17648,7 +17648,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "51ef0029-9bca-4c10-bf1b-e0b666ce21db")
-		(property "Reference" "C15"
+		(property "Reference" "C24"
 			(at 157.734 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17756,7 +17756,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "C15")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -17773,7 +17773,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "533a3158-7484-40a4-9bf3-cb014c5e0b46")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR05"
 			(at 34.29 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -17833,7 +17833,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "#PWR041")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -17928,7 +17928,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "56242718-8860-40d2-a703-48b6aa4ffea6")
-		(property "Reference" "R25"
+		(property "Reference" "R15"
 			(at 81.28 105.156 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18034,7 +18034,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "R25")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -18051,7 +18051,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5690abc2-f4d9-48da-87b2-356ab77db974")
-		(property "Reference" "D6"
+		(property "Reference" "D7"
 			(at 271.018 152.4 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18160,7 +18160,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "D6")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -18178,7 +18178,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "56b07fc5-c2a5-470b-9b24-1a45a25cb97b")
-		(property "Reference" "U4"
+		(property "Reference" "U1"
 			(at 43.18 57.912 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18290,7 +18290,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "U4")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -18308,7 +18308,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "577f9d2c-fe3f-44cb-a1e3-8ce1cf4cc9d8")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR033"
 			(at 135.89 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -18369,7 +18369,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "#PWR032")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -18386,7 +18386,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5d316500-26bb-4035-8dcc-29fa40dab182")
-		(property "Reference" "U9"
+		(property "Reference" "U7"
 			(at 63.5 57.912 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18498,7 +18498,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "U9")
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -18516,7 +18516,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5f228246-6f2a-4e6d-843b-7e24dc87e221")
-		(property "Reference" "C2"
+		(property "Reference" "C6"
 			(at 41.148 162.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18624,7 +18624,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "C2")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -18641,7 +18641,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6113d9b6-fe53-43a2-ae0a-653f28844b33")
-		(property "Reference" "R11"
+		(property "Reference" "R5"
 			(at 25.4 119.126 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18747,7 +18747,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "R11")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -18845,7 +18845,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "62b43544-498c-4271-ad5e-841d20842bf1")
-		(property "Reference" "R5"
+		(property "Reference" "R11"
 			(at 74.93 168.9099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18953,7 +18953,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "R5")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -18970,7 +18970,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "648e2cd3-c53c-4603-a513-c51b0132c148")
-		(property "Reference" "U15"
+		(property "Reference" "U14"
 			(at 245.364 116.078 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19088,7 +19088,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "U15")
+					(reference "U14")
 					(unit 1)
 				)
 			)
@@ -19105,7 +19105,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "66699122-fc5c-4b8b-8318-2ddab20fdcce")
-		(property "Reference" "C12"
+		(property "Reference" "C21"
 			(at 138.684 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19213,7 +19213,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "C12")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -19230,7 +19230,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "681ce5ec-7b77-491c-ad5c-b10f3beeebd1")
-		(property "Reference" "U12"
+		(property "Reference" "U10"
 			(at 63.5 99.822 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19342,7 +19342,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "U12")
+					(reference "U10")
 					(unit 1)
 				)
 			)
@@ -19483,7 +19483,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6ba50a8b-ea95-4b65-ba67-77b56c3a7b4d")
-		(property "Reference" "R9"
+		(property "Reference" "R3"
 			(at 25.4 91.186 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19589,7 +19589,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "R9")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -19607,7 +19607,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6c017e7d-1f1a-4997-965f-1e5ef5505ece")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR021"
 			(at 72.39 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -19667,7 +19667,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "#PWR060")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -19685,7 +19685,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6f7be335-715e-4f9d-ac7e-1bd598d29795")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR019"
 			(at 72.39 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -19745,7 +19745,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "#PWR058")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -19763,7 +19763,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6fd6fe9a-b292-481d-b818-fdee6459d352")
-		(property "Reference" "R1"
+		(property "Reference" "R20"
 			(at 264.414 66.294 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19871,7 +19871,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "R1")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -19888,7 +19888,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "70477bb8-5555-4fdf-a4a8-e75933d45e0d")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR08"
 			(at 34.29 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -19948,7 +19948,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "#PWR044")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -20045,7 +20045,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "729ac6ce-e4e5-414d-994a-649b15e731d4")
-		(property "Reference" "R26"
+		(property "Reference" "R16"
 			(at 81.28 119.126 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20151,7 +20151,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "R26")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -20168,7 +20168,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "74b53c5b-90e1-4831-b793-9b1979b4a2af")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR036"
 			(at 149.86 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -20228,7 +20228,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "#PWR030")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -20246,7 +20246,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "74d90ff3-9c34-4f3c-88fc-76274c13c9c4")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR035"
 			(at 138.43 198.12 0)
 			(hide yes)
 			(show_name no)
@@ -20307,7 +20307,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "#PWR028")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -20324,7 +20324,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7618307e-81ae-4c82-8529-c57324ca09a6")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR03"
 			(at 27.94 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -20384,7 +20384,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "#PWR06")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -20401,7 +20401,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7a36cff9-3d95-4548-8fd8-1a31e3e6bf41")
-		(property "Reference" "C24"
+		(property "Reference" "C11"
 			(at 74.168 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20509,7 +20509,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "C24")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -20605,7 +20605,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7b6049f5-63ad-415e-b6a9-70e60aa3e9ae")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR023"
 			(at 72.39 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -20666,7 +20666,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "#PWR019")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -20684,7 +20684,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7d7843e2-ff65-42cf-98a0-836a1b287d3a")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR042"
 			(at 184.15 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -20745,7 +20745,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "#PWR037")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -20763,7 +20763,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7f892377-3b9b-41d5-b762-12afb5442f29")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR053"
 			(at 241.3 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -20824,7 +20824,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "#PWR05")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -20841,7 +20841,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "82661a70-2a49-42d1-b591-c01bb27db719")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR034"
 			(at 135.89 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -20901,7 +20901,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "#PWR025")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -20999,7 +20999,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "849fa253-38e9-49bc-b04e-5fbda33f3cad")
-		(property "Reference" "R6"
+		(property "Reference" "R17"
 			(at 128.27 55.88 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21105,7 +21105,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "R6")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -21122,7 +21122,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8520baba-9ff5-49f1-8d0b-547d70ab6acd")
-		(property "Reference" "J4"
+		(property "Reference" "J5"
 			(at 271.272 81.28 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21230,7 +21230,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "J4")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -21247,7 +21247,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "869cec9d-e11d-4ad6-91ed-eceeb79ab91a")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR028"
 			(at 100.33 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -21307,7 +21307,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "#PWR023")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -21325,7 +21325,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "86b9834b-8a19-46f0-a56a-e4ae820337be")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR054"
 			(at 241.3 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -21386,7 +21386,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "#PWR049")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -21403,7 +21403,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "898c77e7-5b00-4d47-8d0b-7dd421d46322")
-		(property "Reference" "C5"
+		(property "Reference" "C14"
 			(at 76.962 150.368 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21511,7 +21511,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "C5")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -21528,7 +21528,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "89f6e834-5216-4970-b337-de4c9df7cd3e")
-		(property "Reference" "JP2"
+		(property "Reference" "JP1"
 			(at 207.01 136.144 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21591,7 +21591,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "JP2")
+					(reference "JP1")
 					(unit 1)
 				)
 			)
@@ -21610,7 +21610,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8b7d6b47-ae4c-4383-8843-c3aa0479bccf")
-		(property "Reference" "D2"
+		(property "Reference" "D1"
 			(at 33.02 160.0199 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21719,7 +21719,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "D2")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -21737,7 +21737,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8bc629d3-197f-401e-9011-8cad96e7e58c")
-		(property "Reference" "C21"
+		(property "Reference" "C5"
 			(at 32.512 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21845,7 +21845,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "C21")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -21863,7 +21863,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8d3224d0-f52e-4f83-a0f1-76909b6b0598")
-		(property "Reference" "C8"
+		(property "Reference" "C17"
 			(at 114.046 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21971,7 +21971,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "C8")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -21988,7 +21988,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8d8e1600-fcd9-4b68-b284-fef652be6f62")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR07"
 			(at 34.29 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -22048,7 +22048,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "#PWR043")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -22065,7 +22065,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8dc3b4e5-ae3f-47f1-9c8a-aa04c546bd1a")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR046"
 			(at 201.93 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -22127,7 +22127,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "#PWR062")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -22145,7 +22145,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8e3f7d95-c3ab-4ce6-8390-d8315d9210c0")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR047"
 			(at 213.36 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -22205,7 +22205,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "#PWR063")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -22223,7 +22223,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8fb8e29a-cff6-40bc-b10d-2cee1bf666f9")
-		(property "Reference" "C17"
+		(property "Reference" "C1"
 			(at 32.512 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22331,7 +22331,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "C17")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -22349,7 +22349,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "911a14d9-507d-43bb-bcda-dda5e5cdc01e")
-		(property "Reference" "C30"
+		(property "Reference" "C15"
 			(at 85.852 163.068 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22479,7 +22479,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "C30")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -22496,7 +22496,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "96d64f40-814f-473e-b5b5-a08c42d326d1")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR027"
 			(at 87.63 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -22556,7 +22556,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "#PWR022")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -22653,7 +22653,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "988d32d7-f6f1-42b8-85cc-60cf272b3793")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR039"
 			(at 163.83 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -22714,7 +22714,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "#PWR035")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -22731,7 +22731,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "994a5ad6-fa49-4605-bf98-b77d42fa2520")
-		(property "Reference" "C29"
+		(property "Reference" "C31"
 			(at 277.114 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22839,7 +22839,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "C29")
+					(reference "C31")
 					(unit 1)
 				)
 			)
@@ -22856,7 +22856,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9dca3744-8df7-43bd-9d22-423e3d4ea9b0")
-		(property "Reference" "C22"
+		(property "Reference" "C13"
 			(at 74.168 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22964,7 +22964,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "C22")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -22981,7 +22981,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9de7be97-13d9-4520-b575-6bf92e4815b7")
-		(property "Reference" "U1"
+		(property "Reference" "U15"
 			(at 243.84 81.788 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23107,7 +23107,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "U1")
+					(reference "U15")
 					(unit 1)
 				)
 			)
@@ -23124,7 +23124,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9ed3a91f-e53e-4fb5-8e8e-c6c4dd16e152")
-		(property "Reference" "U13"
+		(property "Reference" "U11"
 			(at 63.5 113.792 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23236,7 +23236,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "U13")
+					(reference "U11")
 					(unit 1)
 				)
 			)
@@ -23672,7 +23672,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a2e4ef7a-6722-4b8e-a333-4296c8f346a6")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR026"
 			(at 86.36 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -23732,7 +23732,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "#PWR064")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -23750,7 +23750,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a40b46df-f1ce-4681-b50a-ffddc57939cf")
-		(property "Reference" "C18"
+		(property "Reference" "C2"
 			(at 32.512 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23858,7 +23858,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "C18")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -23875,7 +23875,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a6061d57-e876-4f0b-9a64-07351faf1211")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR061"
 			(at 275.59 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -23935,7 +23935,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "#PWR052")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -23952,7 +23952,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a6ab12fb-2b9d-462c-93ba-87860a482519")
-		(property "Reference" "D7"
+		(property "Reference" "D8"
 			(at 277.368 152.146 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24061,7 +24061,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "D7")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -24079,7 +24079,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a703b42b-2064-43c2-b353-d61591595f13")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR038"
 			(at 161.29 198.12 0)
 			(hide yes)
 			(show_name no)
@@ -24140,7 +24140,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "#PWR033")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -24158,7 +24158,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a9745213-f0f9-4b01-8721-87c64593e493")
-		(property "Reference" "C13"
+		(property "Reference" "C25"
 			(at 165.1 185.4199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24266,7 +24266,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "C13")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -24284,7 +24284,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a9beb810-0771-4c36-a4fa-5d002126775a")
-		(property "Reference" "U6"
+		(property "Reference" "U3"
 			(at 43.18 85.852 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24396,7 +24396,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "U6")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -24413,7 +24413,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ace8ecde-170b-4b19-bdee-de24f4de6a93")
-		(property "Reference" "R15"
+		(property "Reference" "R7"
 			(at 48.26 133.3499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24521,7 +24521,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "R15")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -24538,7 +24538,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "aefbd49f-19ac-4c38-ac2a-41778f533692")
-		(property "Reference" "D3"
+		(property "Reference" "D4"
 			(at 251.714 152.654 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24647,7 +24647,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "D3")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -24665,7 +24665,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "af001b77-4d3e-49e4-b154-142fae33ef07")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR032"
 			(at 116.84 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -24726,7 +24726,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "#PWR029")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -24744,7 +24744,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "af98b55f-a041-4472-80d0-a1c1f90dd1b3")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR011"
 			(at 40.64 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -24805,7 +24805,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "#PWR014")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -24822,7 +24822,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b0173f49-b449-45ca-bc7f-8f866a1680e6")
-		(property "Reference" "JP3"
+		(property "Reference" "JP2"
 			(at 207.01 142.494 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24885,7 +24885,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "JP3")
+					(reference "JP2")
 					(unit 1)
 				)
 			)
@@ -24902,7 +24902,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b06ac2d6-8abe-496d-88be-10a0d0580e1b")
-		(property "Reference" "D9"
+		(property "Reference" "D3"
 			(at 184.658 105.664 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25021,7 +25021,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "D9")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -25038,7 +25038,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b0a86c2a-eadf-4b9f-a4a9-9f84a56c9543")
-		(property "Reference" "D5"
+		(property "Reference" "D6"
 			(at 264.668 152.4 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25147,7 +25147,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "D5")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -25291,7 +25291,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b848dbb8-7963-4f5b-90fa-4b7e85f720fd")
-		(property "Reference" "C1"
+		(property "Reference" "C30"
 			(at 242.57 57.658 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25397,7 +25397,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "C1")
+					(reference "C30")
 					(unit 1)
 				)
 			)
@@ -25414,7 +25414,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b9c23477-0c13-4c63-9481-7224c303b790")
-		(property "Reference" "R10"
+		(property "Reference" "R4"
 			(at 25.4 105.156 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25520,7 +25520,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "R10")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -25537,7 +25537,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bd1a8782-5045-44d7-a176-5dec4a6162cd")
-		(property "Reference" "U11"
+		(property "Reference" "U9"
 			(at 63.5 85.852 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25649,7 +25649,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "U11")
+					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -25666,7 +25666,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bddd2678-dae2-4816-b2b5-ccee818251b1")
-		(property "Reference" "U14"
+		(property "Reference" "U13"
 			(at 149.606 129.286 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25932,7 +25932,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "U14")
+					(reference "U13")
 					(unit 1)
 				)
 			)
@@ -25950,7 +25950,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bdff8fdc-7761-4df4-9765-cff1dac4a853")
-		(property "Reference" "R24"
+		(property "Reference" "R14"
 			(at 81.28 91.186 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26056,7 +26056,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "R24")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -26074,7 +26074,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bec86946-e9df-4e7b-84a5-bc946b6a4db8")
-		(property "Reference" "R4"
+		(property "Reference" "R10"
 			(at 74.168 159.258 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26182,7 +26182,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "R4")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -26200,7 +26200,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bf249629-e810-488e-b454-b0435dbd61ef")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR060"
 			(at 274.32 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -26261,7 +26261,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "#PWR047")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -26279,7 +26279,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bf790b7b-7e4e-475d-86a0-3fd718504920")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR022"
 			(at 72.39 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -26339,7 +26339,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "#PWR061")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -26482,7 +26482,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c265efc0-ce04-4c29-9309-67214437f7e7")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR025"
 			(at 80.01 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -26543,7 +26543,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "#PWR021")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -26561,7 +26561,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c4a916f4-a449-4cf8-bf2c-5c384760d0ba")
-		(property "Reference" "R13"
+		(property "Reference" "R22"
 			(at 268.478 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26669,7 +26669,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "R13")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -26687,7 +26687,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c5c913c3-8bda-4405-8819-0f3c32b6cdc0")
-		(property "Reference" "C20"
+		(property "Reference" "C4"
 			(at 32.512 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26795,7 +26795,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "C20")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -26813,7 +26813,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c61cdcba-069f-48de-bfbb-2d16398d78d1")
-		(property "Reference" "R14"
+		(property "Reference" "R6"
 			(at 40.64 132.588 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26919,7 +26919,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "R14")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -26937,7 +26937,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c752dc4e-d0d4-4214-bd23-8e006650a2a6")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR020"
 			(at 72.39 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -26997,7 +26997,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "#PWR059")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -27014,7 +27014,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c8adc971-7ea4-4e84-9723-9b394cd5f6f1")
-		(property "Reference" "C4"
+		(property "Reference" "C8"
 			(at 56.642 173.228 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27122,7 +27122,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "C4")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -27139,7 +27139,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c932563a-5065-42d6-a315-a570065cc02b")
-		(property "Reference" "C25"
+		(property "Reference" "C10"
 			(at 74.168 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27247,7 +27247,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "C25")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -27265,7 +27265,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cb7b3319-de3f-48d1-bce7-156d1ae652ae")
-		(property "Reference" "R22"
+		(property "Reference" "R12"
 			(at 81.28 63.246 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27371,7 +27371,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "R22")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -27388,7 +27388,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cf6ad8ef-8516-482a-bb99-aabef6d7035f")
-		(property "Reference" "D4"
+		(property "Reference" "D5"
 			(at 258.064 152.4 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27497,7 +27497,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "D4")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -27515,7 +27515,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d1131c6d-adbb-4362-a815-8f738e9bd27d")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR037"
 			(at 149.86 198.12 0)
 			(hide yes)
 			(show_name no)
@@ -27576,7 +27576,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "#PWR031")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -27593,7 +27593,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d25f1c2d-23d9-402f-8641-a5f832f64a53")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR040"
 			(at 163.83 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -27653,7 +27653,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "#PWR034")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -27671,7 +27671,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d32d85b6-573d-41b3-9f0e-aebb2b51a05e")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR018"
 			(at 72.39 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -27731,7 +27731,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "#PWR057")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -27748,7 +27748,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d37a73a0-df0e-45c5-8b76-9ff16d4830c0")
-		(property "Reference" "R28"
+		(property "Reference" "R19"
 			(at 185.928 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27856,7 +27856,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "R28")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -27874,7 +27874,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d4fe0c93-b16a-4572-b5d7-1e5f99ca468b")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR052"
 			(at 240.03 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -27935,7 +27935,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "#PWR03")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -27953,7 +27953,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d93072ff-4644-4ea1-b502-9f9f389cd253")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR055"
 			(at 250.19 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -28014,7 +28014,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "#PWR046")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -28031,7 +28031,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dc13cbed-06b5-401c-bbd2-fc3562652610")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR06"
 			(at 34.29 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -28091,7 +28091,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "#PWR042")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -28109,7 +28109,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "de6ab1e7-ba52-4333-9955-e251585fdfe5")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR059"
 			(at 262.89 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -28170,7 +28170,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "#PWR048")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -28187,7 +28187,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "de9c4b5d-4008-4895-824a-39cf4775f58b")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR045"
 			(at 199.39 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -28248,7 +28248,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "#PWR018")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -28265,7 +28265,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dfa55095-7d32-4268-833b-b7fcc2dc20ec")
-		(property "Reference" "TP6"
+		(property "Reference" "TP2"
 			(at 59.436 125.984 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28327,7 +28327,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "TP6")
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -28344,7 +28344,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e39cea57-f1a7-45c2-9795-0f5fc3c74e88")
-		(property "Reference" "J2"
+		(property "Reference" "J3"
 			(at 245.872 148.844 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28420,7 +28420,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "J2")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -28437,7 +28437,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e59d3270-43d1-48bf-b433-1a37ea0c2b20")
-		(property "Reference" "JP4"
+		(property "Reference" "JP3"
 			(at 207.01 148.844 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28500,7 +28500,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "JP4")
+					(reference "JP3")
 					(unit 1)
 				)
 			)
@@ -28595,7 +28595,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "eef62062-ff61-4207-891b-f216085504c8")
-		(property "Reference" "J3"
+		(property "Reference" "J4"
 			(at 275.844 62.738 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28703,7 +28703,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "J3")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -28720,7 +28720,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f012985f-66ba-49c8-a694-43f0bff2db26")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR050"
 			(at 234.95 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -28780,7 +28780,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "#PWR01")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -28797,7 +28797,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f15100b2-8e07-4ac5-8c2e-d9ea7ba84c8b")
-		(property "Reference" "C23"
+		(property "Reference" "C12"
 			(at 74.168 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28905,7 +28905,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "C23")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -28923,7 +28923,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f3b9a31e-93e6-4a1b-9a7c-d737fc2c75e1")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR02"
 			(at 25.4 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -28984,7 +28984,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "#PWR04")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -29002,7 +29002,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f60db670-05c1-48a1-a427-183539078327")
-		(property "Reference" "U5"
+		(property "Reference" "U2"
 			(at 43.18 71.882 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29114,7 +29114,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "U5")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -29131,7 +29131,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f846ee10-b1e7-4366-af26-201faf8a52ca")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR030"
 			(at 114.3 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -29191,7 +29191,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "#PWR026")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -29209,7 +29209,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fab66f37-d3e1-48f5-86f5-e1a937fbe1b8")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR051"
 			(at 234.95 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -29270,7 +29270,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "#PWR02")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -29287,7 +29287,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fc42a682-bc4a-4cbd-b112-ec0cfa9eef87")
-		(property "Reference" "R8"
+		(property "Reference" "R2"
 			(at 25.4 77.216 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29393,7 +29393,7 @@
 		(instances
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "R8")
+					(reference "R2")
 					(unit 1)
 				)
 			)
