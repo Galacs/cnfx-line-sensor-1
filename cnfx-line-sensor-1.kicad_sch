@@ -7383,12 +7383,6 @@
 		(uuid "407459f8-42b6-4a86-9ae1-b60f73ba9f00")
 	)
 	(junction
-		(at 163.83 130.81)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4289f462-06a7-4ffe-a3ad-3bd40f990479")
-	)
-	(junction
 		(at 199.39 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7515,6 +7509,12 @@
 		(uuid "814cefe3-9334-4d53-a6ae-bdd2ccf1a9d8")
 	)
 	(junction
+		(at 270.51 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "832b89e1-3260-4dbd-9ba4-20f278ae59a4")
+	)
+	(junction
 		(at 234.95 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7551,6 +7551,12 @@
 		(uuid "90bf272f-0cb2-4347-9522-037e582e4d14")
 	)
 	(junction
+		(at 160.02 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9336206d-b62b-4f6d-9c43-e0a486f11770")
+	)
+	(junction
 		(at 86.36 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7585,6 +7591,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ada46ea9-c242-4fb2-bf8a-7a15350b62da")
+	)
+	(junction
+		(at 46.99 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "adcc8362-9f73-474d-b889-5e80e4e4f39d")
 	)
 	(junction
 		(at 100.33 175.26)
@@ -7665,6 +7677,12 @@
 		(uuid "caa5d251-fc4e-404b-a2b7-2aee25a4a09b")
 	)
 	(junction
+		(at 54.61 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cb5f46e4-58a9-4923-b7cf-26a46361cfa1")
+	)
+	(junction
 		(at 269.24 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7713,12 +7731,6 @@
 		(uuid "dc65a1db-f9c3-443f-b60a-e79580bf07d5")
 	)
 	(junction
-		(at 160.02 46.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dea0ab64-dc14-408f-9dcd-770028296efa")
-	)
-	(junction
 		(at 269.24 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7753,6 +7765,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ee2191e2-1e55-4deb-bfe4-18e66d237d77")
+	)
+	(junction
+		(at 163.83 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f0b957a1-894b-46a0-83e5-a1393f87a39a")
 	)
 	(junction
 		(at 231.14 101.6)
@@ -7837,16 +7855,8 @@
 		(uuid "8fe9a594-63ba-47eb-be9a-2699229f64f8")
 	)
 	(no_connect
-		(at 144.78 86.36)
-		(uuid "9c7da546-d261-4b34-97d9-a5ec6cba1029")
-	)
-	(no_connect
 		(at 144.78 78.74)
 		(uuid "9d1768c8-b59a-4310-b82f-2f28a2d7a263")
-	)
-	(no_connect
-		(at 144.78 104.14)
-		(uuid "f7da73d6-b9fa-444e-b047-b6608743416d")
 	)
 	(wire
 		(pts
@@ -7877,16 +7887,6 @@
 			(type default)
 		)
 		(uuid "01056b80-03a9-4054-b9dc-caa54975ee92")
-	)
-	(wire
-		(pts
-			(xy 163.83 130.81) (xy 165.1 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0234076a-32fe-4ab1-b9a5-9129b63ce618")
 	)
 	(wire
 		(pts
@@ -8447,6 +8447,16 @@
 			(type default)
 		)
 		(uuid "25d82eb2-886d-4861-8da0-4577c32244e9")
+	)
+	(wire
+		(pts
+			(xy 134.62 86.36) (xy 144.78 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25eae068-49d7-4375-b980-3a27d191f44f")
 	)
 	(wire
 		(pts
@@ -9630,6 +9640,16 @@
 	)
 	(wire
 		(pts
+			(xy 27.94 153.67) (xy 27.94 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cf90dc0-1c1c-42bc-a54d-9309f36a7fb2")
+	)
+	(wire
+		(pts
 			(xy 257.81 101.6) (xy 259.08 101.6)
 		)
 		(stroke
@@ -9657,6 +9677,16 @@
 			(type default)
 		)
 		(uuid "81c0b682-9310-4d58-8aff-9c6165f30f21")
+	)
+	(wire
+		(pts
+			(xy 134.62 104.14) (xy 144.78 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82aa0b65-63c8-4062-b9ed-8502f164fdd3")
 	)
 	(wire
 		(pts
@@ -9760,7 +9790,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 83.82) (xy 144.78 83.82)
+			(xy 134.62 83.82) (xy 144.78 83.82)
 		)
 		(stroke
 			(width 0)
@@ -9807,16 +9837,6 @@
 			(type default)
 		)
 		(uuid "8b30fe57-ee42-4d3b-8256-d687979dd0ad")
-	)
-	(wire
-		(pts
-			(xy 157.48 46.99) (xy 160.02 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b68462c-e052-4078-8a0e-3fbabf89e4af")
 	)
 	(wire
 		(pts
@@ -9937,6 +9957,16 @@
 			(type default)
 		)
 		(uuid "94334d16-c875-41aa-b392-878d6bb51d83")
+	)
+	(wire
+		(pts
+			(xy 163.83 130.81) (xy 165.1 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94839c33-f60e-4406-a212-97b201e18c09")
 	)
 	(wire
 		(pts
@@ -10097,6 +10127,16 @@
 			(type default)
 		)
 		(uuid "a242b1fb-ad7a-4394-abf5-06bfd0547dd1")
+	)
+	(wire
+		(pts
+			(xy 270.51 101.6) (xy 274.32 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a385924c-3dfb-49a6-a811-5f52e781dd76")
 	)
 	(wire
 		(pts
@@ -10290,6 +10330,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 46.99) (xy 160.02 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af16a76e-96f9-46ad-9e8d-2bcbe4369656")
+	)
+	(wire
+		(pts
 			(xy 114.3 44.45) (xy 125.73 44.45)
 		)
 		(stroke
@@ -10320,7 +10370,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 101.6) (xy 274.32 101.6)
+			(xy 267.97 101.6) (xy 270.51 101.6)
 		)
 		(stroke
 			(width 0)
@@ -11488,6 +11538,16 @@
 		)
 		(uuid "36bc5f0a-3f53-4401-93d2-bd916265746a")
 	)
+	(label "LED_PWM"
+		(at 134.62 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3b67f760-319a-4a26-b24c-1f7c22396a71")
+	)
 	(label "LS8"
 		(at 185.42 73.66 180)
 		(effects
@@ -11738,8 +11798,18 @@
 		)
 		(uuid "b876b858-cb99-4665-882b-fd9797892d60")
 	)
+	(label "LED_CTRL"
+		(at 134.62 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b8c541e6-9858-47e4-a1bc-8183a0e1b299")
+	)
 	(label "ILM"
-		(at 138.43 83.82 0)
+		(at 134.62 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13645,7 +13715,7 @@
 			)
 		)
 		(property "Value" "QRE1113GR"
-			(at 43.18 124.714 0)
+			(at 43.18 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16468,6 +16538,85 @@
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 46.99 129.54 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4073cccf-56b8-4a11-916d-60c9e62ad280")
+		(property "Reference" "TP5"
+			(at 41.91 127 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 49.53 127.5079 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 52.07 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 46.99 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0890b15c-0ece-450f-a6a5-db4739116990")
+		)
+		(instances
+			(project "cnfx-line-sensor-1"
+				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -20529,7 +20678,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 27.94 154.94 0)
+		(at 27.94 153.67 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20539,7 +20688,7 @@
 		(dnp no)
 		(uuid "7618307e-81ae-4c82-8529-c57324ca09a6")
 		(property "Reference" "#PWR06"
-			(at 27.94 158.75 0)
+			(at 27.94 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20550,7 +20699,7 @@
 			)
 		)
 		(property "Value" "+5V_IN"
-			(at 27.94 151.13 0)
+			(at 27.94 149.86 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20560,7 +20709,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 27.94 154.94 0)
+			(at 27.94 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20571,7 +20720,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 27.94 154.94 0)
+			(at 27.94 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20582,7 +20731,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 27.94 154.94 0)
+			(at 27.94 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23099,7 +23248,7 @@
 			)
 		)
 		(property "Value" "QRE1113GR"
-			(at 63.5 124.714 0)
+			(at 64.77 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23216,10 +23365,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9f848461-0629-425d-976b-9dd3a263240c")
 		(property "Reference" "Q1"
-			(at 58.42 128.2699 0)
+			(at 57.912 129.794 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23230,7 +23378,7 @@
 			)
 		)
 		(property "Value" "HL3400"
-			(at 58.42 130.8099 0)
+			(at 57.912 132.334 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23497,6 +23645,85 @@
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 270.51 101.6 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a22113d7-07df-4f18-be09-979f939f3773")
+		(property "Reference" "#FLG04"
+			(at 270.51 99.695 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 270.51 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 270.51 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 270.51 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 270.51 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "83e891ba-bead-4b1a-878b-fd4cdda1ede8")
+		)
+		(instances
+			(project "cnfx-line-sensor-1"
+				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
+					(reference "#FLG04")
 					(unit 1)
 				)
 			)
@@ -25706,6 +25933,7 @@
 		)
 		(pin "19"
 			(uuid "2074cd21-7c4f-4b67-a878-df2e6edafee7")
+			(alternate "TIM3_CH4")
 		)
 		(pin "39"
 			(uuid "ca06792f-166e-43aa-b04b-3367dca33f48")
@@ -27750,6 +27978,85 @@
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
 					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 54.61 124.46 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "dfa55095-7d32-4268-833b-b7fcc2dc20ec")
+		(property "Reference" "TP6"
+			(at 59.436 125.984 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 52.5779 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 54.61 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 54.61 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c54a8469-5d9f-437e-bfcb-df607052998b")
+		)
+		(instances
+			(project "cnfx-line-sensor-1"
+				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
+					(reference "TP6")
 					(unit 1)
 				)
 			)
