@@ -8030,6 +8030,10 @@
 		(at 144.78 78.74)
 		(uuid "9d1768c8-b59a-4310-b82f-2f28a2d7a263")
 	)
+	(no_connect
+		(at 242.57 106.68)
+		(uuid "bca19501-6b30-4a23-93ce-969229b3281f")
+	)
 	(wire
 		(pts
 			(xy 149.86 157.48) (xy 147.32 157.48)
@@ -8759,16 +8763,6 @@
 			(type default)
 		)
 		(uuid "336df692-894a-437d-8d84-b322a3fc8909")
-	)
-	(wire
-		(pts
-			(xy 241.3 116.84) (xy 241.3 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "351a3f12-2672-4cc2-9d7d-f0a59fd0a57e")
 	)
 	(wire
 		(pts
@@ -11012,16 +11006,6 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 106.68) (xy 242.57 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd628e8b-6d37-40a4-b264-6959ac094ec1")
-	)
-	(wire
-		(pts
 			(xy 165.1 129.54) (xy 165.1 130.81)
 		)
 		(stroke
@@ -11519,16 +11503,6 @@
 			(type default)
 		)
 		(uuid "f76f2512-216b-41d9-9e89-38423e60f250")
-	)
-	(wire
-		(pts
-			(xy 241.3 107.95) (xy 241.3 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f7bd5ba5-b82d-4c10-a31e-20dc30902652")
 	)
 	(wire
 		(pts
@@ -12159,131 +12133,6 @@
 			(justify right bottom)
 		)
 		(uuid "f7e3fd12-6cfc-4ebf-9097-27d6b8b4d73d")
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 241.3 111.76 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "003752b0-8ef3-4135-bd5e-bc22a4f7155a")
-		(property "Reference" "C29"
-			(at 238.76 110.49 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "220n"
-			(at 238.76 113.03 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 242.2652 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 241.3 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 241.3 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Basic" "Y"
-			(at 241.3 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part #" "C16772"
-			(at 241.3 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics "
-			(at 241.3 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "CL05B224KO5NNNC"
-			(at 241.3 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "e1cf0103-1ebc-452f-ae06-f97795ba5e58")
-		)
-		(pin "1"
-			(uuid "9110dc59-5204-4a66-ba02-758b91b9c688")
-		)
-		(instances
-			(project "cnfx-line-sensor-1"
-				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "C29")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x04_Pin")
@@ -21651,85 +21500,6 @@
 			(project "cnfx-line-sensor-1"
 				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
 					(reference "#PWR028")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 241.3 116.84 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "86b9834b-8a19-46f0-a56a-e4ae820337be")
-		(property "Reference" "#PWR054"
-			(at 241.3 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 241.3 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 241.3 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 241.3 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 241.3 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "67e0ef58-288b-45f9-b7ff-52447df5ea96")
-		)
-		(instances
-			(project "cnfx-line-sensor-1"
-				(path "/a87d3028-fbaf-4ff7-85c2-6e4331e8ea4c"
-					(reference "#PWR054")
 					(unit 1)
 				)
 			)
