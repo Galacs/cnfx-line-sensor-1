@@ -12306,7 +12306,7 @@
 				)
 			)
 		)
-		(property "Value" "2k"
+		(property "Value" "1k2"
 			(at 81.28 85.852 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12360,7 +12360,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C4190"
+		(property "JLCPCB Part #" "C22765"
 			(at 81.28 81.28 90)
 			(hide yes)
 			(show_name no)
@@ -12382,7 +12382,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "0603WAF2201T5E"
+		(property "Manufacturer Part Number" "0603WAF1201T5E"
 			(at 81.28 81.28 90)
 			(hide yes)
 			(show_name no)
@@ -14956,7 +14956,7 @@
 				)
 			)
 		)
-		(property "Value" "2k"
+		(property "Value" "1k2"
 			(at 25.4 71.882 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15010,7 +15010,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C4190"
+		(property "JLCPCB Part #" "C22765"
 			(at 25.4 67.31 90)
 			(hide yes)
 			(show_name no)
@@ -15032,7 +15032,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "0603WAF2201T5E"
+		(property "Manufacturer Part Number" "0603WAF1201T5E"
 			(at 25.4 67.31 90)
 			(hide yes)
 			(show_name no)
@@ -17540,7 +17540,7 @@
 				)
 			)
 		)
-		(property "Value" "2k"
+		(property "Value" "1k2"
 			(at 81.28 113.792 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17594,7 +17594,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C4190"
+		(property "JLCPCB Part #" "C22765"
 			(at 81.28 109.22 90)
 			(hide yes)
 			(show_name no)
@@ -17616,7 +17616,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "0603WAF2201T5E"
+		(property "Manufacturer Part Number" "0603WAF1201T5E"
 			(at 81.28 109.22 90)
 			(hide yes)
 			(show_name no)
@@ -18331,7 +18331,7 @@
 				)
 			)
 		)
-		(property "Value" "2k"
+		(property "Value" "1k2"
 			(at 25.4 127.762 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18385,7 +18385,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C4190"
+		(property "JLCPCB Part #" "C22765"
 			(at 25.4 123.19 90)
 			(hide yes)
 			(show_name no)
@@ -18407,7 +18407,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "0603WAF2201T5E"
+		(property "Manufacturer Part Number" "0603WAF1201T5E"
 			(at 25.4 123.19 90)
 			(hide yes)
 			(show_name no)
@@ -19038,7 +19038,7 @@
 				)
 			)
 		)
-		(property "Value" "2k"
+		(property "Value" "1k2"
 			(at 25.4 99.822 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19092,7 +19092,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C4190"
+		(property "JLCPCB Part #" "C22765"
 			(at 25.4 95.25 90)
 			(hide yes)
 			(show_name no)
@@ -19114,7 +19114,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "0603WAF2201T5E"
+		(property "Manufacturer Part Number" "0603WAF1201T5E"
 			(at 25.4 95.25 90)
 			(hide yes)
 			(show_name no)
@@ -19600,7 +19600,7 @@
 				)
 			)
 		)
-		(property "Value" "2k"
+		(property "Value" "1k2"
 			(at 81.28 127.762 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19654,7 +19654,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C4190"
+		(property "JLCPCB Part #" "C22765"
 			(at 81.28 123.19 90)
 			(hide yes)
 			(show_name no)
@@ -19676,7 +19676,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "0603WAF2201T5E"
+		(property "Manufacturer Part Number" "0603WAF1201T5E"
 			(at 81.28 123.19 90)
 			(hide yes)
 			(show_name no)
@@ -24397,7 +24397,7 @@
 				)
 			)
 		)
-		(property "Value" "2k"
+		(property "Value" "1k2"
 			(at 25.4 113.792 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24451,7 +24451,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C4190"
+		(property "JLCPCB Part #" "C22765"
 			(at 25.4 109.22 90)
 			(hide yes)
 			(show_name no)
@@ -24473,7 +24473,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "0603WAF2201T5E"
+		(property "Manufacturer Part Number" "0603WAF1201T5E"
 			(at 25.4 109.22 90)
 			(hide yes)
 			(show_name no)
@@ -25082,7 +25082,7 @@
 				)
 			)
 		)
-		(property "Value" "2k"
+		(property "Value" "1k2"
 			(at 81.28 99.822 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25136,7 +25136,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C4190"
+		(property "JLCPCB Part #" "C22765"
 			(at 81.28 95.25 90)
 			(hide yes)
 			(show_name no)
@@ -25158,7 +25158,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "0603WAF2201T5E"
+		(property "Manufacturer Part Number" "0603WAF1201T5E"
 			(at 81.28 95.25 90)
 			(hide yes)
 			(show_name no)
@@ -26226,7 +26226,7 @@
 				)
 			)
 		)
-		(property "Value" "2k"
+		(property "Value" "1k2"
 			(at 81.28 71.882 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26280,7 +26280,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C4190"
+		(property "JLCPCB Part #" "C22765"
 			(at 81.28 67.31 90)
 			(hide yes)
 			(show_name no)
@@ -26302,7 +26302,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "0603WAF2201T5E"
+		(property "Manufacturer Part Number" "0603WAF1201T5E"
 			(at 81.28 67.31 90)
 			(hide yes)
 			(show_name no)
@@ -28352,7 +28352,7 @@
 				)
 			)
 		)
-		(property "Value" "2k"
+		(property "Value" "1k2"
 			(at 25.4 85.852 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28406,7 +28406,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C4190"
+		(property "JLCPCB Part #" "C22765"
 			(at 25.4 81.28 90)
 			(hide yes)
 			(show_name no)
@@ -28428,7 +28428,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "0603WAF2201T5E"
+		(property "Manufacturer Part Number" "0603WAF1201T5E"
 			(at 25.4 81.28 90)
 			(hide yes)
 			(show_name no)
