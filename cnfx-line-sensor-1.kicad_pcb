@@ -602,7 +602,7 @@
 	(footprint "MountingHole:ToolingHole_1.152mm"
 		(layer "F.Cu")
 		(uuid "05a302ed-668d-4472-a2cc-f4c27cb59528")
-		(at 37.125 191.245)
+		(at 273 133.45)
 		(descr "Tooling Hole 1.152mm, 1.3mm solder mask, JLCPCB specification, https://jlcpcb.com/help/article/How-to-add-tooling-holes-for-PCB-assembly-order")
 		(tags "mounting")
 		(property "Reference" "H3"
@@ -722,13 +722,13 @@
 			)
 			(polygon
 				(pts
-					(xy 37.825 191.245) (xy 37.804659 191.077479) (xy 37.744819 190.919694) (xy 37.648958 190.780814)
-					(xy 37.522645 190.668911) (xy 37.373223 190.590489) (xy 37.209376 190.550104) (xy 37.040624 190.550104)
-					(xy 36.876777 190.590489) (xy 36.727355 190.668911) (xy 36.601042 190.780814) (xy 36.505181 190.919694)
-					(xy 36.445341 191.077479) (xy 36.425 191.245) (xy 36.445341 191.412521) (xy 36.505181 191.570306)
-					(xy 36.601042 191.709186) (xy 36.727355 191.821089) (xy 36.876777 191.899511) (xy 37.040624 191.939896)
-					(xy 37.209376 191.939896) (xy 37.373223 191.899511) (xy 37.522645 191.821089) (xy 37.648958 191.709186)
-					(xy 37.744819 191.570306) (xy 37.804659 191.412521)
+					(xy 273.7 133.45) (xy 273.679659 133.282479) (xy 273.619819 133.124694) (xy 273.523958 132.985814)
+					(xy 273.397645 132.873911) (xy 273.248223 132.795489) (xy 273.084376 132.755104) (xy 272.915624 132.755104)
+					(xy 272.751777 132.795489) (xy 272.602355 132.873911) (xy 272.476042 132.985814) (xy 272.380181 133.124694)
+					(xy 272.320341 133.282479) (xy 272.3 133.45) (xy 272.320341 133.617521) (xy 272.380181 133.775306)
+					(xy 272.476042 133.914186) (xy 272.602355 134.026089) (xy 272.751777 134.104511) (xy 272.915624 134.144896)
+					(xy 273.084376 134.144896) (xy 273.248223 134.104511) (xy 273.397645 134.026089) (xy 273.523958 133.914186)
+					(xy 273.619819 133.775306) (xy 273.679659 133.617521)
 				)
 			)
 		)
@@ -737,11 +737,11 @@
 	(footprint "Button_Switch_SMD:SW_SPST_TS-1088-xR020"
 		(layer "F.Cu")
 		(uuid "06234339-f782-4098-b94e-072d7d1a51f5")
-		(at 179.25 103.5 90)
+		(at 200 86.75)
 		(descr "SMD Tactile Switch, 3.9x3x2 mm, https://lcsc.com/datasheet/lcsc_datasheet_2504101957_XUNPU-TS-1088-AR02016_C720477.pdf")
 		(tags "Tactile Switch")
 		(property "Reference" "SW2"
-			(at 0 -2.65 90)
+			(at 0 -2.65 0)
 			(layer "F.SilkS")
 			(uuid "e02cfb4f-921d-4aea-b363-70379f5d1e07")
 			(effects
@@ -752,7 +752,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 0 2.65 90)
+			(at 0 2.65 0)
 			(layer "F.Fab")
 			(uuid "6cd70e25-61f9-40dd-93a5-e64eced881d2")
 			(effects
@@ -763,7 +763,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -776,7 +776,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -789,7 +789,7 @@
 			)
 		)
 		(property "Manufacturer" "XUNPU"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -802,7 +802,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "TS-1088-AR02016"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -815,7 +815,7 @@
 			)
 		)
 		(property "Basic" "Y"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -828,7 +828,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C720477"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -851,16 +851,6 @@
 		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start 2.1 -1.65)
-			(end 2.1 -1.26)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "0ffb2f48-4129-421f-8467-7c58e0591548")
-		)
 		(fp_line
 			(start -2.1 -1.65)
 			(end 2.1 -1.65)
@@ -892,16 +882,6 @@
 			(uuid "43164130-722a-4403-9895-343701948f9a")
 		)
 		(fp_line
-			(start 2.1 1.65)
-			(end 2.1 1.26)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "c09c70b0-5629-451d-9489-75d310a8ff69")
-		)
-		(fp_line
 			(start -2.1 1.65)
 			(end 2.1 1.65)
 			(stroke
@@ -912,14 +892,24 @@
 			(uuid "04a9ac25-790e-4c0a-9e74-c5ca7a8ef341")
 		)
 		(fp_line
-			(start 3 -1.75)
-			(end -3 -1.75)
+			(start 2.1 -1.65)
+			(end 2.1 -1.26)
 			(stroke
-				(width 0.05)
+				(width 0.12)
 				(type solid)
 			)
-			(layer "F.CrtYd")
-			(uuid "2863d180-3be5-4046-b2f9-0295fb37cdae")
+			(layer "F.SilkS")
+			(uuid "0ffb2f48-4129-421f-8467-7c58e0591548")
+		)
+		(fp_line
+			(start 2.1 1.65)
+			(end 2.1 1.26)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c09c70b0-5629-451d-9489-75d310a8ff69")
 		)
 		(fp_line
 			(start -3 -1.75)
@@ -932,16 +922,6 @@
 			(uuid "6ef37fa8-8a72-4e7c-a137-3ec583e634c9")
 		)
 		(fp_line
-			(start 3 1.75)
-			(end 3 -1.75)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "2718bdfa-d06c-457f-b9a6-bf8e2490313a")
-		)
-		(fp_line
 			(start -3 1.75)
 			(end 3 1.75)
 			(stroke
@@ -952,14 +932,24 @@
 			(uuid "e19e8005-7fdd-4305-9204-c8f6d2b93177")
 		)
 		(fp_line
-			(start 1.95 -1.5)
-			(end 1.95 1.5)
+			(start 3 -1.75)
+			(end -3 -1.75)
 			(stroke
-				(width 0.1)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "F.Fab")
-			(uuid "14d1a3ba-1e3b-4d44-8893-139e194c22fa")
+			(layer "F.CrtYd")
+			(uuid "2863d180-3be5-4046-b2f9-0295fb37cdae")
+		)
+		(fp_line
+			(start 3 1.75)
+			(end 3 -1.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "2718bdfa-d06c-457f-b9a6-bf8e2490313a")
 		)
 		(fp_line
 			(start -1.95 -1.5)
@@ -991,6 +981,16 @@
 			(layer "F.Fab")
 			(uuid "96f7e117-ca95-4336-900d-74c446766984")
 		)
+		(fp_line
+			(start 1.95 -1.5)
+			(end 1.95 1.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "14d1a3ba-1e3b-4d44-8893-139e194c22fa")
+		)
 		(fp_circle
 			(center 0 0)
 			(end 0.9 0)
@@ -1003,7 +1003,7 @@
 			(uuid "85e1824a-1595-43fc-bda8-de471ab77a4f")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -2.65 90)
+			(at 0 -2.65 0)
 			(layer "F.Fab")
 			(uuid "29a8d963-0a9e-4943-8124-7244aad6764f")
 			(effects
@@ -1014,7 +1014,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -2.225 0 90)
+			(at -2.225 0)
 			(size 1.05 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.2380952381)
@@ -1024,7 +1024,7 @@
 			(uuid "fb8f9dcd-a767-4a2e-98ef-b8bc5b3c0841")
 		)
 		(pad "2" smd roundrect
-			(at 2.225 0 90)
+			(at 2.225 0)
 			(size 1.05 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.2380952381)
@@ -3922,7 +3922,7 @@
 	(footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 		(layer "F.Cu")
 		(uuid "221c865b-316d-486f-ab57-9034ed9366af")
-		(at 137.15 186.1 90)
+		(at 214 103 90)
 		(descr "SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, open")
 		(tags "solder jumper open")
 		(property "Reference" "JP1"
@@ -4710,7 +4710,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "2496bc59-faf8-448a-b4f1-29647eb841c4")
-		(at 183.75 100.75 180)
+		(at 221 82.5 180)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C18"
@@ -6372,7 +6372,7 @@
 	(footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 		(layer "F.Cu")
 		(uuid "2e238d10-e8af-46b1-b5e8-445a53b80c84")
-		(at 144.25 186.1 90)
+		(at 221.1 103 90)
 		(descr "SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, open")
 		(tags "solder jumper open")
 		(property "Reference" "JP3"
@@ -8026,7 +8026,7 @@
 	(footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 		(layer "F.Cu")
 		(uuid "4112b73b-0ab8-4f3b-b201-b02fdfd6ac6a")
-		(at 140.7 186.1 90)
+		(at 217.55 103 90)
 		(descr "SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, open")
 		(tags "solder jumper open")
 		(property "Reference" "JP2"
@@ -8302,7 +8302,7 @@
 	(footprint "MountingHole:ToolingHole_1.152mm"
 		(layer "F.Cu")
 		(uuid "41be3584-802e-4158-b89e-718fa9151076")
-		(at 37.125 186.345)
+		(at 273 128.55)
 		(descr "Tooling Hole 1.152mm, 1.3mm solder mask, JLCPCB specification, https://jlcpcb.com/help/article/How-to-add-tooling-holes-for-PCB-assembly-order")
 		(tags "mounting")
 		(property "Reference" "H1"
@@ -8422,13 +8422,13 @@
 			)
 			(polygon
 				(pts
-					(xy 37.825 186.345) (xy 37.804659 186.177479) (xy 37.744819 186.019694) (xy 37.648958 185.880814)
-					(xy 37.522645 185.768911) (xy 37.373223 185.690489) (xy 37.209376 185.650104) (xy 37.040624 185.650104)
-					(xy 36.876777 185.690489) (xy 36.727355 185.768911) (xy 36.601042 185.880814) (xy 36.505181 186.019694)
-					(xy 36.445341 186.177479) (xy 36.425 186.345) (xy 36.445341 186.512521) (xy 36.505181 186.670306)
-					(xy 36.601042 186.809186) (xy 36.727355 186.921089) (xy 36.876777 186.999511) (xy 37.040624 187.039896)
-					(xy 37.209376 187.039896) (xy 37.373223 186.999511) (xy 37.522645 186.921089) (xy 37.648958 186.809186)
-					(xy 37.744819 186.670306) (xy 37.804659 186.512521)
+					(xy 273.7 128.55) (xy 273.679659 128.382479) (xy 273.619819 128.224694) (xy 273.523958 128.085814)
+					(xy 273.397645 127.973911) (xy 273.248223 127.895489) (xy 273.084376 127.855104) (xy 272.915624 127.855104)
+					(xy 272.751777 127.895489) (xy 272.602355 127.973911) (xy 272.476042 128.085814) (xy 272.380181 128.224694)
+					(xy 272.320341 128.382479) (xy 272.3 128.55) (xy 272.320341 128.717521) (xy 272.380181 128.875306)
+					(xy 272.476042 129.014186) (xy 272.602355 129.126089) (xy 272.751777 129.204511) (xy 272.915624 129.244896)
+					(xy 273.084376 129.244896) (xy 273.248223 129.204511) (xy 273.397645 129.126089) (xy 273.523958 129.014186)
+					(xy 273.619819 128.875306) (xy 273.679659 128.717521)
 				)
 			)
 		)
@@ -10391,7 +10391,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "6435527a-af9c-4f39-962c-c523ba86c83b")
-		(at 175 100.5 180)
+		(at 189.5 82.5 180)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R16"
@@ -17768,7 +17768,7 @@
 	(footprint "Button_Switch_SMD:SW_SPST_TS-1088-xR020"
 		(layer "F.Cu")
 		(uuid "bb5a78a6-7311-435a-8dd6-cc1eaad119df")
-		(at 183.75 104.25 90)
+		(at 221 86 90)
 		(descr "SMD Tactile Switch, 3.9x3x2 mm, https://lcsc.com/datasheet/lcsc_datasheet_2504101957_XUNPU-TS-1088-AR02016_C720477.pdf")
 		(tags "Tactile Switch")
 		(property "Reference" "SW3"
@@ -22204,7 +22204,7 @@
 	(footprint "Button_Switch_SMD:SW_SPST_TS-1088-xR020"
 		(layer "F.Cu")
 		(uuid "f91a5cfd-99d0-41d4-ba52-cb13a968c56f")
-		(at 175 104 90)
+		(at 189.5 86 90)
 		(descr "SMD Tactile Switch, 3.9x3x2 mm, https://lcsc.com/datasheet/lcsc_datasheet_2504101957_XUNPU-TS-1088-AR02016_C720477.pdf")
 		(tags "Tactile Switch")
 		(property "Reference" "SW1"
@@ -22936,7 +22936,7 @@
 	(footprint "MountingHole:ToolingHole_1.152mm"
 		(layer "F.Cu")
 		(uuid "ff17c569-0626-44b0-ad2e-a2f9cb5935be")
-		(at 37.125 188.795)
+		(at 273 131)
 		(descr "Tooling Hole 1.152mm, 1.3mm solder mask, JLCPCB specification, https://jlcpcb.com/help/article/How-to-add-tooling-holes-for-PCB-assembly-order")
 		(tags "mounting")
 		(property "Reference" "H2"
@@ -23056,13 +23056,13 @@
 			)
 			(polygon
 				(pts
-					(xy 37.825 188.795) (xy 37.804659 188.627479) (xy 37.744819 188.469694) (xy 37.648958 188.330814)
-					(xy 37.522645 188.218911) (xy 37.373223 188.140489) (xy 37.209376 188.100104) (xy 37.040624 188.100104)
-					(xy 36.876777 188.140489) (xy 36.727355 188.218911) (xy 36.601042 188.330814) (xy 36.505181 188.469694)
-					(xy 36.445341 188.627479) (xy 36.425 188.795) (xy 36.445341 188.962521) (xy 36.505181 189.120306)
-					(xy 36.601042 189.259186) (xy 36.727355 189.371089) (xy 36.876777 189.449511) (xy 37.040624 189.489896)
-					(xy 37.209376 189.489896) (xy 37.373223 189.449511) (xy 37.522645 189.371089) (xy 37.648958 189.259186)
-					(xy 37.744819 189.120306) (xy 37.804659 188.962521)
+					(xy 273.7 131) (xy 273.679659 130.832479) (xy 273.619819 130.674694) (xy 273.523958 130.535814)
+					(xy 273.397645 130.423911) (xy 273.248223 130.345489) (xy 273.084376 130.305104) (xy 272.915624 130.305104)
+					(xy 272.751777 130.345489) (xy 272.602355 130.423911) (xy 272.476042 130.535814) (xy 272.380181 130.674694)
+					(xy 272.320341 130.832479) (xy 272.3 131) (xy 272.320341 131.167521) (xy 272.380181 131.325306)
+					(xy 272.476042 131.464186) (xy 272.602355 131.576089) (xy 272.751777 131.654511) (xy 272.915624 131.694896)
+					(xy 273.084376 131.694896) (xy 273.248223 131.654511) (xy 273.397645 131.576089) (xy 273.523958 131.464186)
+					(xy 273.619819 131.325306) (xy 273.679659 131.167521)
 				)
 			)
 		)
