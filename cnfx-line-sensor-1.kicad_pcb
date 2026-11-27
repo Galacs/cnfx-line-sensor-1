@@ -4408,11 +4408,11 @@
 	(footprint "OptoDevice:OnSemi_CASE100CY"
 		(layer "F.Cu")
 		(uuid "2461d95c-5aa2-4112-9049-61c969556311")
-		(at 29 121.5 90)
+		(at 173.888889 80)
 		(descr "OnSemi CASE 100CY, light-direction upwards, see http://www.onsemi.com/pub/Collateral/QRE1113-D.PDF")
 		(tags "refective opto couple photo coupler")
 		(property "Reference" "U3"
-			(at -2.5 0 0)
+			(at -2.5 0 90)
 			(layer "F.SilkS")
 			(uuid "4989bbb2-47d4-42dc-8231-b0c7f2e437bd")
 			(effects
@@ -4423,7 +4423,7 @@
 			)
 		)
 		(property "Value" "QRE1113GR"
-			(at 0 3.9 90)
+			(at 0 3.9 0)
 			(layer "F.Fab")
 			(uuid "76c63dbc-9c34-4d06-a808-66a46aab8913")
 			(effects
@@ -4434,7 +4434,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.onsemi.com/pub/Collateral/QRE1113-D.PDF"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -4447,7 +4447,7 @@
 			)
 		)
 		(property "Description" "Miniature Reflective Optical Object Sensor, SMD-4"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -4460,7 +4460,7 @@
 			)
 		)
 		(property "Basic" "X"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -4473,7 +4473,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C232862"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -4486,7 +4486,7 @@
 			)
 		)
 		(property "Manufacturer" "onsemi"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -4499,7 +4499,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "QRE1113GR"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -4524,16 +4524,6 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start 1.7 1.4)
-			(end 1.7 -1.4)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "2b97c2ef-0781-4921-ba9f-9f119ba525f9")
-		)
-		(fp_line
 			(start -1.7 1.4)
 			(end -1.7 -1.67)
 			(stroke
@@ -4542,6 +4532,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "8268d9ce-e2b2-4f9b-ac32-81a87ce9dc16")
+		)
+		(fp_line
+			(start 1.7 1.4)
+			(end 1.7 -1.4)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "2b97c2ef-0781-4921-ba9f-9f119ba525f9")
 		)
 		(fp_poly
 			(pts
@@ -4557,16 +4557,6 @@
 		)
 		(fp_line
 			(start -1.85 -3.08)
-			(end 1.85 -3.08)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "503f3ea8-570a-484a-a66c-bad4b9d13252")
-		)
-		(fp_line
-			(start -1.85 -3.08)
 			(end -1.85 3.08)
 			(stroke
 				(width 0.05)
@@ -4576,14 +4566,14 @@
 			(uuid "07a33d7f-a3d6-40fa-954d-29efdbaab687")
 		)
 		(fp_line
-			(start 1.85 3.08)
+			(start -1.85 -3.08)
 			(end 1.85 -3.08)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "6de50ea1-c5a8-4cfe-b9e0-79ee347de007")
+			(uuid "503f3ea8-570a-484a-a66c-bad4b9d13252")
 		)
 		(fp_line
 			(start 1.85 3.08)
@@ -4596,24 +4586,14 @@
 			(uuid "61499573-9ca1-41e8-a069-561b927b8f6c")
 		)
 		(fp_line
-			(start 1.6 -1.3)
-			(end 1.6 1.3)
+			(start 1.85 3.08)
+			(end 1.85 -3.08)
 			(stroke
-				(width 0.1)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "F.Fab")
-			(uuid "38701bc5-3243-4ec7-b686-175645fd086e")
-		)
-		(fp_line
-			(start -1.1 -1.3)
-			(end 1.6 -1.3)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "8622543b-89bb-4309-a313-b61fee231964")
+			(layer "F.CrtYd")
+			(uuid "6de50ea1-c5a8-4cfe-b9e0-79ee347de007")
 		)
 		(fp_line
 			(start -1.6 -0.8)
@@ -4626,16 +4606,6 @@
 			(uuid "b3e7f46e-5465-4262-9a06-953444f821cd")
 		)
 		(fp_line
-			(start 1.6 1.3)
-			(end -1.6 1.3)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "faa15f90-cba2-4de3-a05b-0e93e9b96e95")
-		)
-		(fp_line
 			(start -1.6 1.3)
 			(end -1.6 -0.8)
 			(stroke
@@ -4645,8 +4615,38 @@
 			(layer "F.Fab")
 			(uuid "2087d230-b501-461f-a950-4706330fb281")
 		)
+		(fp_line
+			(start -1.1 -1.3)
+			(end 1.6 -1.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "8622543b-89bb-4309-a313-b61fee231964")
+		)
+		(fp_line
+			(start 1.6 -1.3)
+			(end 1.6 1.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "38701bc5-3243-4ec7-b686-175645fd086e")
+		)
+		(fp_line
+			(start 1.6 1.3)
+			(end -1.6 1.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "faa15f90-cba2-4de3-a05b-0e93e9b96e95")
+		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0.2 90)
+			(at 0 0.2 0)
 			(layer "F.Fab")
 			(uuid "9fb38436-cbe7-41b7-9a62-cf6e26d7e16b")
 			(effects
@@ -4657,7 +4657,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.9 -2 90)
+			(at -0.9 -2)
 			(size 0.79 1.66)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -4667,7 +4667,7 @@
 			(uuid "477dbdc2-ae00-4140-9a1b-4b066b8ed7b1")
 		)
 		(pad "2" smd roundrect
-			(at -0.9 2 90)
+			(at -0.9 2)
 			(size 0.79 1.66)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -4677,7 +4677,7 @@
 			(uuid "8c04ab26-d268-4f8e-838a-de7c9474f32a")
 		)
 		(pad "3" smd roundrect
-			(at 0.9 2 90)
+			(at 0.9 2)
 			(size 0.79 1.66)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -4686,7 +4686,7 @@
 			(uuid "3cc3ffb1-8fac-4c7e-a0e2-80ecdf84551a")
 		)
 		(pad "4" smd roundrect
-			(at 0.9 -2 90)
+			(at 0.9 -2)
 			(size 0.79 1.66)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -5768,13 +5768,13 @@
 	(footprint "OptoDevice:OnSemi_CASE100CY"
 		(layer "F.Cu")
 		(uuid "2cbfb6e7-05fc-4169-b034-9c5664cbaf1e")
-		(at 29 131.15 90)
+		(at 153 80)
 		(descr "OnSemi CASE 100CY, light-direction upwards, see http://www.onsemi.com/pub/Collateral/QRE1113-D.PDF")
 		(tags "refective opto couple photo coupler")
 		(property "Reference" "U1"
-			(at -2.5 0 0)
+			(at -2.5 0 90)
 			(layer "F.SilkS")
-			(uuid "e98a1863-db76-4304-8e0a-09c13728ed77")
+			(uuid "dfd5ba09-0d3b-4aff-894c-30d271051a98")
 			(effects
 				(font
 					(size 1 1)
@@ -5783,9 +5783,9 @@
 			)
 		)
 		(property "Value" "QRE1113GR"
-			(at 0 3.9 90)
+			(at 0 3.9 0)
 			(layer "F.Fab")
-			(uuid "cfb18cc9-9689-42e0-9639-4c03a6bc1fff")
+			(uuid "3c678edd-3690-41f4-80eb-f6fbede31e03")
 			(effects
 				(font
 					(size 1 1)
@@ -5794,11 +5794,11 @@
 			)
 		)
 		(property "Datasheet" "http://www.onsemi.com/pub/Collateral/QRE1113-D.PDF"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e74eb33a-93d5-4b25-bb42-3002b96d7a3d")
+			(uuid "8c99353b-7fa1-48ca-a991-20aae26c4840")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5807,11 +5807,11 @@
 			)
 		)
 		(property "Description" "Miniature Reflective Optical Object Sensor, SMD-4"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e3c9d026-7dac-4741-b523-f69f1629f245")
+			(uuid "75a564c0-6f5e-46f1-b816-6489dc3dde53")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5820,7 +5820,7 @@
 			)
 		)
 		(property "Basic" "X"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -5833,7 +5833,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C232862"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -5846,7 +5846,7 @@
 			)
 		)
 		(property "Manufacturer" "onsemi"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -5859,7 +5859,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "QRE1113GR"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -5884,16 +5884,6 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start 1.7 1.4)
-			(end 1.7 -1.4)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "828fc6a5-2f8f-4255-9a9f-d746c246bd54")
-		)
-		(fp_line
 			(start -1.7 1.4)
 			(end -1.7 -1.67)
 			(stroke
@@ -5902,6 +5892,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "c0afad98-6c97-44b6-ad1c-c8c60abd64b3")
+		)
+		(fp_line
+			(start 1.7 1.4)
+			(end 1.7 -1.4)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "828fc6a5-2f8f-4255-9a9f-d746c246bd54")
 		)
 		(fp_poly
 			(pts
@@ -5917,16 +5917,6 @@
 		)
 		(fp_line
 			(start -1.85 -3.08)
-			(end 1.85 -3.08)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "3f5517c9-ea49-4e97-a801-cfb0cb6fed56")
-		)
-		(fp_line
-			(start -1.85 -3.08)
 			(end -1.85 3.08)
 			(stroke
 				(width 0.05)
@@ -5936,14 +5926,14 @@
 			(uuid "fedbb658-2f85-4fee-bad8-961c0c571311")
 		)
 		(fp_line
-			(start 1.85 3.08)
+			(start -1.85 -3.08)
 			(end 1.85 -3.08)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "9e3078d8-41fb-4070-8bcd-694dadec07fe")
+			(uuid "3f5517c9-ea49-4e97-a801-cfb0cb6fed56")
 		)
 		(fp_line
 			(start 1.85 3.08)
@@ -5956,24 +5946,14 @@
 			(uuid "1c4659a6-4fc6-48c1-a89c-4b1711cfcb6d")
 		)
 		(fp_line
-			(start 1.6 -1.3)
-			(end 1.6 1.3)
+			(start 1.85 3.08)
+			(end 1.85 -3.08)
 			(stroke
-				(width 0.1)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "F.Fab")
-			(uuid "db68f0b5-175d-4ae0-b19f-612bcbac14ec")
-		)
-		(fp_line
-			(start -1.1 -1.3)
-			(end 1.6 -1.3)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "41245f64-4567-4597-995e-18efa52bf949")
+			(layer "F.CrtYd")
+			(uuid "9e3078d8-41fb-4070-8bcd-694dadec07fe")
 		)
 		(fp_line
 			(start -1.6 -0.8)
@@ -5986,16 +5966,6 @@
 			(uuid "def7621f-0c54-4b66-a7db-6b98caf619cf")
 		)
 		(fp_line
-			(start 1.6 1.3)
-			(end -1.6 1.3)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "3b5b3718-ab6e-4815-ab86-7a7134071d08")
-		)
-		(fp_line
 			(start -1.6 1.3)
 			(end -1.6 -0.8)
 			(stroke
@@ -6005,8 +5975,38 @@
 			(layer "F.Fab")
 			(uuid "09ec2149-c7ed-4915-9e21-8c2fa206d033")
 		)
+		(fp_line
+			(start -1.1 -1.3)
+			(end 1.6 -1.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "41245f64-4567-4597-995e-18efa52bf949")
+		)
+		(fp_line
+			(start 1.6 -1.3)
+			(end 1.6 1.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "db68f0b5-175d-4ae0-b19f-612bcbac14ec")
+		)
+		(fp_line
+			(start 1.6 1.3)
+			(end -1.6 1.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "3b5b3718-ab6e-4815-ab86-7a7134071d08")
+		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0.2 90)
+			(at 0 0.2 0)
 			(layer "F.Fab")
 			(uuid "827ecfa4-10cc-4358-94e9-78833fffe37f")
 			(effects
@@ -6017,7 +6017,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.9 -2 90)
+			(at -0.9 -2)
 			(size 0.79 1.66)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -6027,7 +6027,7 @@
 			(uuid "107b8768-bf7a-4f83-af37-1f876bfd7e5d")
 		)
 		(pad "2" smd roundrect
-			(at -0.9 2 90)
+			(at -0.9 2)
 			(size 0.79 1.66)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -6037,7 +6037,7 @@
 			(uuid "6310fbe5-4b43-4cd4-868c-88d7b7691d3a")
 		)
 		(pad "3" smd roundrect
-			(at 0.9 2 90)
+			(at 0.9 2)
 			(size 0.79 1.66)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -6046,7 +6046,7 @@
 			(uuid "c17d7a16-a249-48f7-9dc1-ddb1877e8ccd")
 		)
 		(pad "4" smd roundrect
-			(at 0.9 -2 90)
+			(at 0.9 -2)
 			(size 0.79 1.66)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -6070,11 +6070,11 @@
 	(footprint "OptoDevice:OnSemi_CASE100CY"
 		(layer "F.Cu")
 		(uuid "2cf22872-c930-4839-b2d1-a3bb6624badf")
-		(at 36.21 126.325 90)
+		(at 215.666667 80)
 		(descr "OnSemi CASE 100CY, light-direction upwards, see http://www.onsemi.com/pub/Collateral/QRE1113-D.PDF")
 		(tags "refective opto couple photo coupler")
 		(property "Reference" "U8"
-			(at -2.5 0 0)
+			(at -2.5 0 90)
 			(layer "F.SilkS")
 			(uuid "872ce88e-79f0-40d7-b3b2-1f29912e43ab")
 			(effects
@@ -6085,7 +6085,7 @@
 			)
 		)
 		(property "Value" "QRE1113GR"
-			(at 0 3.9 90)
+			(at 0 3.9 0)
 			(layer "F.Fab")
 			(uuid "4fd09346-e934-410f-b805-2b98e2eccf15")
 			(effects
@@ -6096,7 +6096,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.onsemi.com/pub/Collateral/QRE1113-D.PDF"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -6109,7 +6109,7 @@
 			)
 		)
 		(property "Description" "Miniature Reflective Optical Object Sensor, SMD-4"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -6122,7 +6122,7 @@
 			)
 		)
 		(property "Basic" "X"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -6135,7 +6135,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C232862"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -6148,7 +6148,7 @@
 			)
 		)
 		(property "Manufacturer" "onsemi"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -6161,7 +6161,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "QRE1113GR"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -6186,16 +6186,6 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start 1.7 1.4)
-			(end 1.7 -1.4)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "f1d49119-33a9-49e5-b640-f699d88866f2")
-		)
-		(fp_line
 			(start -1.7 1.4)
 			(end -1.7 -1.67)
 			(stroke
@@ -6204,6 +6194,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "373d79b5-41fb-476b-b077-adb42fee4846")
+		)
+		(fp_line
+			(start 1.7 1.4)
+			(end 1.7 -1.4)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f1d49119-33a9-49e5-b640-f699d88866f2")
 		)
 		(fp_poly
 			(pts
@@ -6219,16 +6219,6 @@
 		)
 		(fp_line
 			(start -1.85 -3.08)
-			(end 1.85 -3.08)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "d201bc33-0674-4021-9029-a5356477017d")
-		)
-		(fp_line
-			(start -1.85 -3.08)
 			(end -1.85 3.08)
 			(stroke
 				(width 0.05)
@@ -6238,14 +6228,14 @@
 			(uuid "6c450107-4393-4846-aa8e-de3c2365b23a")
 		)
 		(fp_line
-			(start 1.85 3.08)
+			(start -1.85 -3.08)
 			(end 1.85 -3.08)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "7761405b-ba82-41e4-bad0-3384f3c0f6e5")
+			(uuid "d201bc33-0674-4021-9029-a5356477017d")
 		)
 		(fp_line
 			(start 1.85 3.08)
@@ -6258,24 +6248,14 @@
 			(uuid "c6c7fa21-88ee-424d-92c1-f340c0b0fb0c")
 		)
 		(fp_line
-			(start 1.6 -1.3)
-			(end 1.6 1.3)
+			(start 1.85 3.08)
+			(end 1.85 -3.08)
 			(stroke
-				(width 0.1)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "F.Fab")
-			(uuid "eeade9d9-a411-4535-b3ea-ebc165bf4f92")
-		)
-		(fp_line
-			(start -1.1 -1.3)
-			(end 1.6 -1.3)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "ecc20990-8718-4cfc-9061-6ef026427703")
+			(layer "F.CrtYd")
+			(uuid "7761405b-ba82-41e4-bad0-3384f3c0f6e5")
 		)
 		(fp_line
 			(start -1.6 -0.8)
@@ -6288,16 +6268,6 @@
 			(uuid "dda7b99d-a076-4595-afb6-1755adfa0d9d")
 		)
 		(fp_line
-			(start 1.6 1.3)
-			(end -1.6 1.3)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "e55d0f9a-a318-4ce8-92df-dbf520848b9e")
-		)
-		(fp_line
 			(start -1.6 1.3)
 			(end -1.6 -0.8)
 			(stroke
@@ -6307,8 +6277,38 @@
 			(layer "F.Fab")
 			(uuid "993dd0c8-ee3e-4a6f-9f38-583a59e5271a")
 		)
+		(fp_line
+			(start -1.1 -1.3)
+			(end 1.6 -1.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ecc20990-8718-4cfc-9061-6ef026427703")
+		)
+		(fp_line
+			(start 1.6 -1.3)
+			(end 1.6 1.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "eeade9d9-a411-4535-b3ea-ebc165bf4f92")
+		)
+		(fp_line
+			(start 1.6 1.3)
+			(end -1.6 1.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "e55d0f9a-a318-4ce8-92df-dbf520848b9e")
+		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0.2 90)
+			(at 0 0.2 0)
 			(layer "F.Fab")
 			(uuid "3b21893f-4790-4a1c-bdfc-828d042c088a")
 			(effects
@@ -6319,7 +6319,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.9 -2 90)
+			(at -0.9 -2)
 			(size 0.79 1.66)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -6329,7 +6329,7 @@
 			(uuid "445be1c2-f6db-4088-be7d-4aed590af950")
 		)
 		(pad "2" smd roundrect
-			(at -0.9 2 90)
+			(at -0.9 2)
 			(size 0.79 1.66)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -6339,7 +6339,7 @@
 			(uuid "e7529199-b448-44e0-b581-5953acfa886c")
 		)
 		(pad "3" smd roundrect
-			(at 0.9 2 90)
+			(at 0.9 2)
 			(size 0.79 1.66)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -6348,7 +6348,7 @@
 			(uuid "da2fa7aa-c328-40c0-a13b-51fcbf9890ec")
 		)
 		(pad "4" smd roundrect
-			(at 0.9 -2 90)
+			(at 0.9 -2)
 			(size 0.79 1.66)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -6648,11 +6648,11 @@
 	(footprint "OptoDevice:OnSemi_CASE100CY"
 		(layer "F.Cu")
 		(uuid "3115fb9f-eee8-4229-8972-e615c1940f08")
-		(at 29 126.325 90)
+		(at 163.444444 80)
 		(descr "OnSemi CASE 100CY, light-direction upwards, see http://www.onsemi.com/pub/Collateral/QRE1113-D.PDF")
 		(tags "refective opto couple photo coupler")
 		(property "Reference" "U2"
-			(at -2.5 0 0)
+			(at -2.5 0 90)
 			(layer "F.SilkS")
 			(uuid "e463f86a-cc88-4c2e-9350-e8ab18b5a4af")
 			(effects
@@ -6663,7 +6663,7 @@
 			)
 		)
 		(property "Value" "QRE1113GR"
-			(at 0 3.9 90)
+			(at 0 3.9 0)
 			(layer "F.Fab")
 			(uuid "1d02b58f-3ea1-4f55-a6e4-a593235f3186")
 			(effects
@@ -6674,7 +6674,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.onsemi.com/pub/Collateral/QRE1113-D.PDF"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -6687,7 +6687,7 @@
 			)
 		)
 		(property "Description" "Miniature Reflective Optical Object Sensor, SMD-4"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -6700,7 +6700,7 @@
 			)
 		)
 		(property "Basic" "X"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -6713,7 +6713,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C232862"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -6726,7 +6726,7 @@
 			)
 		)
 		(property "Manufacturer" "onsemi"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -6739,7 +6739,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "QRE1113GR"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -6764,16 +6764,6 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start 1.7 1.4)
-			(end 1.7 -1.4)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "727c265b-e3c0-431e-9271-c9817f518376")
-		)
-		(fp_line
 			(start -1.7 1.4)
 			(end -1.7 -1.67)
 			(stroke
@@ -6782,6 +6772,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "e74b38cf-ebc3-4522-86f8-486cc77521d8")
+		)
+		(fp_line
+			(start 1.7 1.4)
+			(end 1.7 -1.4)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "727c265b-e3c0-431e-9271-c9817f518376")
 		)
 		(fp_poly
 			(pts
@@ -6797,16 +6797,6 @@
 		)
 		(fp_line
 			(start -1.85 -3.08)
-			(end 1.85 -3.08)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "a2d1881c-993a-4831-a301-3aaed1f287e2")
-		)
-		(fp_line
-			(start -1.85 -3.08)
 			(end -1.85 3.08)
 			(stroke
 				(width 0.05)
@@ -6816,14 +6806,14 @@
 			(uuid "250dd20f-a7e8-473a-87d2-99b62a1e0b4f")
 		)
 		(fp_line
-			(start 1.85 3.08)
+			(start -1.85 -3.08)
 			(end 1.85 -3.08)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "219a59cb-bb6e-4574-947d-1e49ba40e1ad")
+			(uuid "a2d1881c-993a-4831-a301-3aaed1f287e2")
 		)
 		(fp_line
 			(start 1.85 3.08)
@@ -6836,24 +6826,14 @@
 			(uuid "7b0ea3ab-f860-4e0a-a331-bd78fb89dbea")
 		)
 		(fp_line
-			(start 1.6 -1.3)
-			(end 1.6 1.3)
+			(start 1.85 3.08)
+			(end 1.85 -3.08)
 			(stroke
-				(width 0.1)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "F.Fab")
-			(uuid "564c0247-dcc7-4ad5-8126-00ab30d984cb")
-		)
-		(fp_line
-			(start -1.1 -1.3)
-			(end 1.6 -1.3)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "1bfbb848-530d-4601-86b5-075d8b7f1f7c")
+			(layer "F.CrtYd")
+			(uuid "219a59cb-bb6e-4574-947d-1e49ba40e1ad")
 		)
 		(fp_line
 			(start -1.6 -0.8)
@@ -6866,16 +6846,6 @@
 			(uuid "dd737c71-5ce2-4f0e-b7e2-1a705f755fdb")
 		)
 		(fp_line
-			(start 1.6 1.3)
-			(end -1.6 1.3)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "5480d163-6d81-490a-84bf-0345a2d8d262")
-		)
-		(fp_line
 			(start -1.6 1.3)
 			(end -1.6 -0.8)
 			(stroke
@@ -6885,8 +6855,38 @@
 			(layer "F.Fab")
 			(uuid "481632f5-4df9-47d9-a3ea-dc3aa5be4ee0")
 		)
+		(fp_line
+			(start -1.1 -1.3)
+			(end 1.6 -1.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "1bfbb848-530d-4601-86b5-075d8b7f1f7c")
+		)
+		(fp_line
+			(start 1.6 -1.3)
+			(end 1.6 1.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "564c0247-dcc7-4ad5-8126-00ab30d984cb")
+		)
+		(fp_line
+			(start 1.6 1.3)
+			(end -1.6 1.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "5480d163-6d81-490a-84bf-0345a2d8d262")
+		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0.2 90)
+			(at 0 0.2 0)
 			(layer "F.Fab")
 			(uuid "3dbc6a50-efa3-4013-b3f0-0b1bb7fae2b4")
 			(effects
@@ -6897,7 +6897,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.9 -2 90)
+			(at -0.9 -2)
 			(size 0.79 1.66)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -6907,7 +6907,7 @@
 			(uuid "cb7d0ab1-f976-434a-82db-c9d2257dd2b9")
 		)
 		(pad "2" smd roundrect
-			(at -0.9 2 90)
+			(at -0.9 2)
 			(size 0.79 1.66)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -6917,7 +6917,7 @@
 			(uuid "88a7e11b-4704-4aba-9712-365a9894409f")
 		)
 		(pad "3" smd roundrect
-			(at 0.9 2 90)
+			(at 0.9 2)
 			(size 0.79 1.66)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -6926,7 +6926,7 @@
 			(uuid "47ae9652-7236-4b03-8f86-9abd90f52c13")
 		)
 		(pad "4" smd roundrect
-			(at 0.9 -2 90)
+			(at 0.9 -2)
 			(size 0.79 1.66)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -14528,11 +14528,11 @@
 	(footprint "OptoDevice:OnSemi_CASE100CY"
 		(layer "F.Cu")
 		(uuid "939f2a6c-eec3-4b42-8879-f2d8195c9e0a")
-		(at 36.21 121.5 90)
+		(at 226.111111 80)
 		(descr "OnSemi CASE 100CY, light-direction upwards, see http://www.onsemi.com/pub/Collateral/QRE1113-D.PDF")
 		(tags "refective opto couple photo coupler")
 		(property "Reference" "U9"
-			(at -2.5 0 0)
+			(at -2.5 0 90)
 			(layer "F.SilkS")
 			(uuid "0cd2e63b-d677-4dc3-ae51-2cdf06cee66c")
 			(effects
@@ -14543,7 +14543,7 @@
 			)
 		)
 		(property "Value" "QRE1113GR"
-			(at 0 3.9 90)
+			(at 0 3.9 0)
 			(layer "F.Fab")
 			(uuid "97876aa4-5593-49fe-9bf1-c5d769e4d8cb")
 			(effects
@@ -14554,7 +14554,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.onsemi.com/pub/Collateral/QRE1113-D.PDF"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -14567,7 +14567,7 @@
 			)
 		)
 		(property "Description" "Miniature Reflective Optical Object Sensor, SMD-4"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -14580,7 +14580,7 @@
 			)
 		)
 		(property "Basic" "X"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -14593,7 +14593,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C232862"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -14606,7 +14606,7 @@
 			)
 		)
 		(property "Manufacturer" "onsemi"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -14619,7 +14619,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "QRE1113GR"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -14644,16 +14644,6 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start 1.7 1.4)
-			(end 1.7 -1.4)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "4ce0e90b-aeac-4787-bcb0-43682742f5e0")
-		)
-		(fp_line
 			(start -1.7 1.4)
 			(end -1.7 -1.67)
 			(stroke
@@ -14662,6 +14652,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "46974f48-02c6-440c-a36d-d7b0ea05bf25")
+		)
+		(fp_line
+			(start 1.7 1.4)
+			(end 1.7 -1.4)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "4ce0e90b-aeac-4787-bcb0-43682742f5e0")
 		)
 		(fp_poly
 			(pts
@@ -14677,16 +14677,6 @@
 		)
 		(fp_line
 			(start -1.85 -3.08)
-			(end 1.85 -3.08)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "dff45b57-6e66-431a-9695-0836503df4bf")
-		)
-		(fp_line
-			(start -1.85 -3.08)
 			(end -1.85 3.08)
 			(stroke
 				(width 0.05)
@@ -14696,14 +14686,14 @@
 			(uuid "a62defd7-6b86-4818-8276-baebd8a1b835")
 		)
 		(fp_line
-			(start 1.85 3.08)
+			(start -1.85 -3.08)
 			(end 1.85 -3.08)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "8ddf92be-8aa6-479a-8d67-10e3f74068a0")
+			(uuid "dff45b57-6e66-431a-9695-0836503df4bf")
 		)
 		(fp_line
 			(start 1.85 3.08)
@@ -14716,24 +14706,14 @@
 			(uuid "d28c1189-88af-4153-9c77-599a0e10f96e")
 		)
 		(fp_line
-			(start 1.6 -1.3)
-			(end 1.6 1.3)
+			(start 1.85 3.08)
+			(end 1.85 -3.08)
 			(stroke
-				(width 0.1)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "F.Fab")
-			(uuid "4054afdf-7a8a-4978-802e-cae04bbb45a9")
-		)
-		(fp_line
-			(start -1.1 -1.3)
-			(end 1.6 -1.3)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "6c3bc15b-8aab-4727-ada6-e3ece0924abf")
+			(layer "F.CrtYd")
+			(uuid "8ddf92be-8aa6-479a-8d67-10e3f74068a0")
 		)
 		(fp_line
 			(start -1.6 -0.8)
@@ -14746,16 +14726,6 @@
 			(uuid "e185b75a-745d-4af0-b8bd-5c729a52b31a")
 		)
 		(fp_line
-			(start 1.6 1.3)
-			(end -1.6 1.3)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "794b85a2-f0a2-43b9-8473-0e6c3b228a72")
-		)
-		(fp_line
 			(start -1.6 1.3)
 			(end -1.6 -0.8)
 			(stroke
@@ -14765,8 +14735,38 @@
 			(layer "F.Fab")
 			(uuid "df8d70dd-7d35-4db7-b949-05c4043f01f4")
 		)
+		(fp_line
+			(start -1.1 -1.3)
+			(end 1.6 -1.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "6c3bc15b-8aab-4727-ada6-e3ece0924abf")
+		)
+		(fp_line
+			(start 1.6 -1.3)
+			(end 1.6 1.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "4054afdf-7a8a-4978-802e-cae04bbb45a9")
+		)
+		(fp_line
+			(start 1.6 1.3)
+			(end -1.6 1.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "794b85a2-f0a2-43b9-8473-0e6c3b228a72")
+		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0.2 90)
+			(at 0 0.2 0)
 			(layer "F.Fab")
 			(uuid "694cf229-1f35-4893-9c28-8181db4944d5")
 			(effects
@@ -14777,7 +14777,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.9 -2 90)
+			(at -0.9 -2)
 			(size 0.79 1.66)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -14787,7 +14787,7 @@
 			(uuid "d59f21b0-8f0e-43e0-a468-a8109a9b6b15")
 		)
 		(pad "2" smd roundrect
-			(at -0.9 2 90)
+			(at -0.9 2)
 			(size 0.79 1.66)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -14797,7 +14797,7 @@
 			(uuid "2e90e64f-499e-4b44-8b95-238903047a72")
 		)
 		(pad "3" smd roundrect
-			(at 0.9 2 90)
+			(at 0.9 2)
 			(size 0.79 1.66)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -14806,7 +14806,7 @@
 			(uuid "7f0194d5-cfd4-4384-a190-cdf632e6194f")
 		)
 		(pad "4" smd roundrect
-			(at 0.9 -2 90)
+			(at 0.9 -2)
 			(size 0.79 1.66)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -15734,11 +15734,11 @@
 	(footprint "OptoDevice:OnSemi_CASE100CY"
 		(layer "F.Cu")
 		(uuid "9f9b6ce6-0e70-4804-8156-358df6096ebf")
-		(at 36.21 116.675 90)
+		(at 236.555556 80)
 		(descr "OnSemi CASE 100CY, light-direction upwards, see http://www.onsemi.com/pub/Collateral/QRE1113-D.PDF")
 		(tags "refective opto couple photo coupler")
 		(property "Reference" "U10"
-			(at -2.5 0 0)
+			(at -2.5 0 90)
 			(layer "F.SilkS")
 			(uuid "4b700692-9478-4525-8098-2a10fe37b795")
 			(effects
@@ -15749,7 +15749,7 @@
 			)
 		)
 		(property "Value" "QRE1113GR"
-			(at 0 3.9 90)
+			(at 0 3.9 0)
 			(layer "F.Fab")
 			(uuid "b89fa894-0a50-43fe-bfd1-9d5cef215e1f")
 			(effects
@@ -15760,7 +15760,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.onsemi.com/pub/Collateral/QRE1113-D.PDF"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -15773,7 +15773,7 @@
 			)
 		)
 		(property "Description" "Miniature Reflective Optical Object Sensor, SMD-4"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -15786,7 +15786,7 @@
 			)
 		)
 		(property "Basic" "X"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -15799,7 +15799,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C232862"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -15812,7 +15812,7 @@
 			)
 		)
 		(property "Manufacturer" "onsemi"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -15825,7 +15825,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "QRE1113GR"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -15850,16 +15850,6 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start 1.7 1.4)
-			(end 1.7 -1.4)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "12dd045d-bd72-4ad3-a5cb-d10290380767")
-		)
-		(fp_line
 			(start -1.7 1.4)
 			(end -1.7 -1.67)
 			(stroke
@@ -15868,6 +15858,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "f3fca05b-f361-477e-ba95-3dbd0458645d")
+		)
+		(fp_line
+			(start 1.7 1.4)
+			(end 1.7 -1.4)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "12dd045d-bd72-4ad3-a5cb-d10290380767")
 		)
 		(fp_poly
 			(pts
@@ -15883,16 +15883,6 @@
 		)
 		(fp_line
 			(start -1.85 -3.08)
-			(end 1.85 -3.08)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "abe8ccfd-b6ff-4b37-96cb-7662988d1d21")
-		)
-		(fp_line
-			(start -1.85 -3.08)
 			(end -1.85 3.08)
 			(stroke
 				(width 0.05)
@@ -15902,14 +15892,14 @@
 			(uuid "09eb30a2-d217-436b-95a5-d6c56360b875")
 		)
 		(fp_line
-			(start 1.85 3.08)
+			(start -1.85 -3.08)
 			(end 1.85 -3.08)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "a4f11535-8e7e-4a44-ad88-30e5e7e93b0d")
+			(uuid "abe8ccfd-b6ff-4b37-96cb-7662988d1d21")
 		)
 		(fp_line
 			(start 1.85 3.08)
@@ -15922,24 +15912,14 @@
 			(uuid "cbf8e54c-725f-4f9a-9a9a-2a312b88cb61")
 		)
 		(fp_line
-			(start 1.6 -1.3)
-			(end 1.6 1.3)
+			(start 1.85 3.08)
+			(end 1.85 -3.08)
 			(stroke
-				(width 0.1)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "F.Fab")
-			(uuid "7fb7433f-f34c-4246-9c81-84b5eb5ae66c")
-		)
-		(fp_line
-			(start -1.1 -1.3)
-			(end 1.6 -1.3)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "5db52ff7-eeba-4186-bea9-6eae8d35167c")
+			(layer "F.CrtYd")
+			(uuid "a4f11535-8e7e-4a44-ad88-30e5e7e93b0d")
 		)
 		(fp_line
 			(start -1.6 -0.8)
@@ -15952,16 +15932,6 @@
 			(uuid "1549b125-219f-4315-a5f8-1f97a625f53c")
 		)
 		(fp_line
-			(start 1.6 1.3)
-			(end -1.6 1.3)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "c156e5b8-c186-49c4-9912-00a224b6f447")
-		)
-		(fp_line
 			(start -1.6 1.3)
 			(end -1.6 -0.8)
 			(stroke
@@ -15971,8 +15941,38 @@
 			(layer "F.Fab")
 			(uuid "97dbc88c-6591-4e14-8a48-417d69e4035c")
 		)
+		(fp_line
+			(start -1.1 -1.3)
+			(end 1.6 -1.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "5db52ff7-eeba-4186-bea9-6eae8d35167c")
+		)
+		(fp_line
+			(start 1.6 -1.3)
+			(end 1.6 1.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "7fb7433f-f34c-4246-9c81-84b5eb5ae66c")
+		)
+		(fp_line
+			(start 1.6 1.3)
+			(end -1.6 1.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "c156e5b8-c186-49c4-9912-00a224b6f447")
+		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0.2 90)
+			(at 0 0.2 0)
 			(layer "F.Fab")
 			(uuid "dd3aaec3-6da4-4a92-8970-ac736a3a5409")
 			(effects
@@ -15983,7 +15983,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.9 -2 90)
+			(at -0.9 -2)
 			(size 0.79 1.66)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -15993,7 +15993,7 @@
 			(uuid "ca0132ae-084e-4661-882a-0af70ecd1d5c")
 		)
 		(pad "2" smd roundrect
-			(at -0.9 2 90)
+			(at -0.9 2)
 			(size 0.79 1.66)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -16003,7 +16003,7 @@
 			(uuid "54a2da99-d450-40d8-910b-112d52f716b7")
 		)
 		(pad "3" smd roundrect
-			(at 0.9 2 90)
+			(at 0.9 2)
 			(size 0.79 1.66)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -16012,7 +16012,7 @@
 			(uuid "538f3c5f-2ba5-47f3-8403-95504cd0fd66")
 		)
 		(pad "4" smd roundrect
-			(at 0.9 -2 90)
+			(at 0.9 -2)
 			(size 0.79 1.66)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -16277,13 +16277,13 @@
 	(footprint "OptoDevice:OnSemi_CASE100CY"
 		(layer "F.Cu")
 		(uuid "a3ac3325-909b-4a2c-804f-6b0aa62bb5f7")
-		(at 36.21 111.85 90)
+		(at 247 80)
 		(descr "OnSemi CASE 100CY, light-direction upwards, see http://www.onsemi.com/pub/Collateral/QRE1113-D.PDF")
 		(tags "refective opto couple photo coupler")
 		(property "Reference" "U11"
-			(at -2.5 0 0)
+			(at -2.5 0 90)
 			(layer "F.SilkS")
-			(uuid "3c37eaac-7064-45b1-b9e7-a9107232f78c")
+			(uuid "c0dca744-b6d0-4306-8af4-91a7e69977ce")
 			(effects
 				(font
 					(size 1 1)
@@ -16292,9 +16292,9 @@
 			)
 		)
 		(property "Value" "QRE1113GR"
-			(at 0 3.9 90)
+			(at 0 3.9 0)
 			(layer "F.Fab")
-			(uuid "8fcaf8a6-eb3b-4ba9-9051-90b32efc3ebe")
+			(uuid "7538141f-fccd-414e-aadf-b497aabe67df")
 			(effects
 				(font
 					(size 1 1)
@@ -16303,11 +16303,11 @@
 			)
 		)
 		(property "Datasheet" "http://www.onsemi.com/pub/Collateral/QRE1113-D.PDF"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "54eec6af-6893-48ab-9b3b-c530d2bc01f8")
+			(uuid "2523eaed-d88d-44fe-b6fa-6709ceede590")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16316,11 +16316,11 @@
 			)
 		)
 		(property "Description" "Miniature Reflective Optical Object Sensor, SMD-4"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "89bf1076-1225-4cba-bf54-8d19a78f65fd")
+			(uuid "3aa4366e-74df-4b24-b3e4-e3f1d5023aa5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16329,7 +16329,7 @@
 			)
 		)
 		(property "Basic" "X"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -16342,7 +16342,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C232862"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -16355,7 +16355,7 @@
 			)
 		)
 		(property "Manufacturer" "onsemi"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -16368,7 +16368,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "QRE1113GR"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -16393,16 +16393,6 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start 1.7 1.4)
-			(end 1.7 -1.4)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "61ae2bdf-30dd-4ef2-b972-6111d195e22e")
-		)
-		(fp_line
 			(start -1.7 1.4)
 			(end -1.7 -1.67)
 			(stroke
@@ -16411,6 +16401,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "fbfc1e40-965c-44e0-a5ae-1c851c327c0c")
+		)
+		(fp_line
+			(start 1.7 1.4)
+			(end 1.7 -1.4)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "61ae2bdf-30dd-4ef2-b972-6111d195e22e")
 		)
 		(fp_poly
 			(pts
@@ -16426,16 +16426,6 @@
 		)
 		(fp_line
 			(start -1.85 -3.08)
-			(end 1.85 -3.08)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "4b4f8894-c4e9-4a4b-96c2-c6d97354dd3c")
-		)
-		(fp_line
-			(start -1.85 -3.08)
 			(end -1.85 3.08)
 			(stroke
 				(width 0.05)
@@ -16445,14 +16435,14 @@
 			(uuid "4c9b4c80-4f8a-499e-9434-95ed3cc121c7")
 		)
 		(fp_line
-			(start 1.85 3.08)
+			(start -1.85 -3.08)
 			(end 1.85 -3.08)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "d129178d-ebdc-4d81-86f1-292b6ab0f06f")
+			(uuid "4b4f8894-c4e9-4a4b-96c2-c6d97354dd3c")
 		)
 		(fp_line
 			(start 1.85 3.08)
@@ -16465,24 +16455,14 @@
 			(uuid "a94d9d4d-0043-4d6a-a9bb-80b815282bd1")
 		)
 		(fp_line
-			(start 1.6 -1.3)
-			(end 1.6 1.3)
+			(start 1.85 3.08)
+			(end 1.85 -3.08)
 			(stroke
-				(width 0.1)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "F.Fab")
-			(uuid "2fbf42a3-8bbc-4c74-9c60-5ca1834e7b80")
-		)
-		(fp_line
-			(start -1.1 -1.3)
-			(end 1.6 -1.3)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "20393484-6f56-4c7b-97f0-d353bcf12394")
+			(layer "F.CrtYd")
+			(uuid "d129178d-ebdc-4d81-86f1-292b6ab0f06f")
 		)
 		(fp_line
 			(start -1.6 -0.8)
@@ -16495,16 +16475,6 @@
 			(uuid "4e112ab3-be43-4073-9f00-3a40903c263e")
 		)
 		(fp_line
-			(start 1.6 1.3)
-			(end -1.6 1.3)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "b0b614d7-c29b-4930-a611-95a9800d7ace")
-		)
-		(fp_line
 			(start -1.6 1.3)
 			(end -1.6 -0.8)
 			(stroke
@@ -16514,8 +16484,38 @@
 			(layer "F.Fab")
 			(uuid "7d8073d6-c2a4-4a57-9c55-e5307392c6de")
 		)
+		(fp_line
+			(start -1.1 -1.3)
+			(end 1.6 -1.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "20393484-6f56-4c7b-97f0-d353bcf12394")
+		)
+		(fp_line
+			(start 1.6 -1.3)
+			(end 1.6 1.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "2fbf42a3-8bbc-4c74-9c60-5ca1834e7b80")
+		)
+		(fp_line
+			(start 1.6 1.3)
+			(end -1.6 1.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b0b614d7-c29b-4930-a611-95a9800d7ace")
+		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0.2 90)
+			(at 0 0.2 0)
 			(layer "F.Fab")
 			(uuid "c2d6523f-8190-418b-bfaa-602e0929e258")
 			(effects
@@ -16526,7 +16526,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.9 -2 90)
+			(at -0.9 -2)
 			(size 0.79 1.66)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -16536,7 +16536,7 @@
 			(uuid "da62de15-f9d6-4de2-80f8-21ad360dc5cb")
 		)
 		(pad "2" smd roundrect
-			(at -0.9 2 90)
+			(at -0.9 2)
 			(size 0.79 1.66)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -16546,7 +16546,7 @@
 			(uuid "dd7ef090-0c26-4fce-b6b5-f7ed740f6c4e")
 		)
 		(pad "3" smd roundrect
-			(at 0.9 2 90)
+			(at 0.9 2)
 			(size 0.79 1.66)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -16555,7 +16555,7 @@
 			(uuid "50fe7d15-2511-4be9-8421-a50c0effe8cf")
 		)
 		(pad "4" smd roundrect
-			(at 0.9 -2 90)
+			(at 0.9 -2)
 			(size 0.79 1.66)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -17338,11 +17338,11 @@
 	(footprint "OptoDevice:OnSemi_CASE100CY"
 		(layer "F.Cu")
 		(uuid "a7e91228-ee92-4772-93c7-bc5f69527c75")
-		(at 29 111.85 90)
+		(at 194.777778 80)
 		(descr "OnSemi CASE 100CY, light-direction upwards, see http://www.onsemi.com/pub/Collateral/QRE1113-D.PDF")
 		(tags "refective opto couple photo coupler")
 		(property "Reference" "U5"
-			(at -2.5 0 0)
+			(at -2.5 0 90)
 			(layer "F.SilkS")
 			(uuid "580b7d4b-6cea-4d6c-b558-fa69be1c550c")
 			(effects
@@ -17353,7 +17353,7 @@
 			)
 		)
 		(property "Value" "QRE1113GR"
-			(at 0 3.9 90)
+			(at 0 3.9 0)
 			(layer "F.Fab")
 			(uuid "7a68d727-eb88-4aa5-bb07-9d65ea865481")
 			(effects
@@ -17364,7 +17364,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.onsemi.com/pub/Collateral/QRE1113-D.PDF"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -17377,7 +17377,7 @@
 			)
 		)
 		(property "Description" "Miniature Reflective Optical Object Sensor, SMD-4"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -17390,7 +17390,7 @@
 			)
 		)
 		(property "Basic" "X"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -17403,7 +17403,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C232862"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -17416,7 +17416,7 @@
 			)
 		)
 		(property "Manufacturer" "onsemi"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -17429,7 +17429,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "QRE1113GR"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -17454,16 +17454,6 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start 1.7 1.4)
-			(end 1.7 -1.4)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "d18a0076-755b-471a-b111-2db29221b397")
-		)
-		(fp_line
 			(start -1.7 1.4)
 			(end -1.7 -1.67)
 			(stroke
@@ -17472,6 +17462,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "9f8d33f6-bdca-457b-8188-70e2d322762c")
+		)
+		(fp_line
+			(start 1.7 1.4)
+			(end 1.7 -1.4)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "d18a0076-755b-471a-b111-2db29221b397")
 		)
 		(fp_poly
 			(pts
@@ -17487,16 +17487,6 @@
 		)
 		(fp_line
 			(start -1.85 -3.08)
-			(end 1.85 -3.08)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "af67eee4-9b3e-442f-ba1a-de8f0f27356c")
-		)
-		(fp_line
-			(start -1.85 -3.08)
 			(end -1.85 3.08)
 			(stroke
 				(width 0.05)
@@ -17506,14 +17496,14 @@
 			(uuid "dab66bf9-2184-47a0-b38c-ceb5cc2a94e7")
 		)
 		(fp_line
-			(start 1.85 3.08)
+			(start -1.85 -3.08)
 			(end 1.85 -3.08)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "4047775b-5447-4325-879f-30132d097f39")
+			(uuid "af67eee4-9b3e-442f-ba1a-de8f0f27356c")
 		)
 		(fp_line
 			(start 1.85 3.08)
@@ -17526,24 +17516,14 @@
 			(uuid "87c31eed-c056-4a80-907b-b8501bec2657")
 		)
 		(fp_line
-			(start 1.6 -1.3)
-			(end 1.6 1.3)
+			(start 1.85 3.08)
+			(end 1.85 -3.08)
 			(stroke
-				(width 0.1)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "F.Fab")
-			(uuid "feb70d02-ca47-4c30-b550-3474edc5192f")
-		)
-		(fp_line
-			(start -1.1 -1.3)
-			(end 1.6 -1.3)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "4807db70-0964-465c-a520-6d1ca4063601")
+			(layer "F.CrtYd")
+			(uuid "4047775b-5447-4325-879f-30132d097f39")
 		)
 		(fp_line
 			(start -1.6 -0.8)
@@ -17556,16 +17536,6 @@
 			(uuid "2ee8c30e-d688-4c1a-bfbe-1d8726e4109b")
 		)
 		(fp_line
-			(start 1.6 1.3)
-			(end -1.6 1.3)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "1c515131-b688-48ff-b7a2-369149f81062")
-		)
-		(fp_line
 			(start -1.6 1.3)
 			(end -1.6 -0.8)
 			(stroke
@@ -17575,8 +17545,38 @@
 			(layer "F.Fab")
 			(uuid "211e4ecd-5eea-4462-b912-57b57a76a2cf")
 		)
+		(fp_line
+			(start -1.1 -1.3)
+			(end 1.6 -1.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "4807db70-0964-465c-a520-6d1ca4063601")
+		)
+		(fp_line
+			(start 1.6 -1.3)
+			(end 1.6 1.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "feb70d02-ca47-4c30-b550-3474edc5192f")
+		)
+		(fp_line
+			(start 1.6 1.3)
+			(end -1.6 1.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "1c515131-b688-48ff-b7a2-369149f81062")
+		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0.2 90)
+			(at 0 0.2 0)
 			(layer "F.Fab")
 			(uuid "62482ef0-22f4-4b38-96b8-954ea40d5b42")
 			(effects
@@ -17587,7 +17587,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.9 -2 90)
+			(at -0.9 -2)
 			(size 0.79 1.66)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -17597,7 +17597,7 @@
 			(uuid "7498327e-1e0a-4339-a82c-b59670898556")
 		)
 		(pad "2" smd roundrect
-			(at -0.9 2 90)
+			(at -0.9 2)
 			(size 0.79 1.66)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -17607,7 +17607,7 @@
 			(uuid "09ded14c-805d-4ca6-9e3c-1fbbdad50fff")
 		)
 		(pad "3" smd roundrect
-			(at 0.9 2 90)
+			(at 0.9 2)
 			(size 0.79 1.66)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -17616,7 +17616,7 @@
 			(uuid "afc763cf-e5cc-485a-a235-c5d2fc2b884f")
 		)
 		(pad "4" smd roundrect
-			(at 0.9 -2 90)
+			(at 0.9 -2)
 			(size 0.79 1.66)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -20500,11 +20500,11 @@
 	(footprint "OptoDevice:OnSemi_CASE100CY"
 		(layer "F.Cu")
 		(uuid "ce4dc614-c6f9-413f-b979-84f7f6d3c3ba")
-		(at 36.21 131.15 90)
+		(at 205.222222 80)
 		(descr "OnSemi CASE 100CY, light-direction upwards, see http://www.onsemi.com/pub/Collateral/QRE1113-D.PDF")
 		(tags "refective opto couple photo coupler")
 		(property "Reference" "U7"
-			(at -2.5 0 0)
+			(at -2.5 0 90)
 			(layer "F.SilkS")
 			(uuid "f6cf124c-3cb3-4eb4-a908-f754187f522e")
 			(effects
@@ -20515,7 +20515,7 @@
 			)
 		)
 		(property "Value" "QRE1113GR"
-			(at 0 3.9 90)
+			(at 0 3.9 0)
 			(layer "F.Fab")
 			(uuid "177d535f-6893-483c-ae20-60ff906a6be9")
 			(effects
@@ -20526,7 +20526,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.onsemi.com/pub/Collateral/QRE1113-D.PDF"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -20539,7 +20539,7 @@
 			)
 		)
 		(property "Description" "Miniature Reflective Optical Object Sensor, SMD-4"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -20552,7 +20552,7 @@
 			)
 		)
 		(property "Basic" "X"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -20565,7 +20565,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C232862"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -20578,7 +20578,7 @@
 			)
 		)
 		(property "Manufacturer" "onsemi"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -20591,7 +20591,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "QRE1113GR"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -20616,16 +20616,6 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start 1.7 1.4)
-			(end 1.7 -1.4)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "7ea92614-ac7b-42cf-bcb1-2cd29c413692")
-		)
-		(fp_line
 			(start -1.7 1.4)
 			(end -1.7 -1.67)
 			(stroke
@@ -20634,6 +20624,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "477180c1-c75c-4bd8-8e7c-7a42d0b417c5")
+		)
+		(fp_line
+			(start 1.7 1.4)
+			(end 1.7 -1.4)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "7ea92614-ac7b-42cf-bcb1-2cd29c413692")
 		)
 		(fp_poly
 			(pts
@@ -20649,16 +20649,6 @@
 		)
 		(fp_line
 			(start -1.85 -3.08)
-			(end 1.85 -3.08)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "f336396b-9cb0-45fa-a87e-e1a1e58ddbd2")
-		)
-		(fp_line
-			(start -1.85 -3.08)
 			(end -1.85 3.08)
 			(stroke
 				(width 0.05)
@@ -20668,14 +20658,14 @@
 			(uuid "eece16f8-8bc5-45f2-ac6c-13de8dcba6b4")
 		)
 		(fp_line
-			(start 1.85 3.08)
+			(start -1.85 -3.08)
 			(end 1.85 -3.08)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "e7fc1bd8-43c8-40ae-b314-1f1b10ba2162")
+			(uuid "f336396b-9cb0-45fa-a87e-e1a1e58ddbd2")
 		)
 		(fp_line
 			(start 1.85 3.08)
@@ -20688,24 +20678,14 @@
 			(uuid "30383d05-3083-403e-99cd-a5589f9a26bb")
 		)
 		(fp_line
-			(start 1.6 -1.3)
-			(end 1.6 1.3)
+			(start 1.85 3.08)
+			(end 1.85 -3.08)
 			(stroke
-				(width 0.1)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "F.Fab")
-			(uuid "3f0376f3-9cc9-4ca2-a855-5aece3ea1f91")
-		)
-		(fp_line
-			(start -1.1 -1.3)
-			(end 1.6 -1.3)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "cee20135-fc7b-49b1-b2d3-4335c0df43a7")
+			(layer "F.CrtYd")
+			(uuid "e7fc1bd8-43c8-40ae-b314-1f1b10ba2162")
 		)
 		(fp_line
 			(start -1.6 -0.8)
@@ -20718,16 +20698,6 @@
 			(uuid "cfb954ed-eba2-405d-ba56-73b52c8b3b0e")
 		)
 		(fp_line
-			(start 1.6 1.3)
-			(end -1.6 1.3)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "fc2cc697-ed47-47f7-bd71-e523aedfd8e2")
-		)
-		(fp_line
 			(start -1.6 1.3)
 			(end -1.6 -0.8)
 			(stroke
@@ -20737,8 +20707,38 @@
 			(layer "F.Fab")
 			(uuid "9de95412-e564-46cd-9142-c9a3b6d62789")
 		)
+		(fp_line
+			(start -1.1 -1.3)
+			(end 1.6 -1.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "cee20135-fc7b-49b1-b2d3-4335c0df43a7")
+		)
+		(fp_line
+			(start 1.6 -1.3)
+			(end 1.6 1.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "3f0376f3-9cc9-4ca2-a855-5aece3ea1f91")
+		)
+		(fp_line
+			(start 1.6 1.3)
+			(end -1.6 1.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "fc2cc697-ed47-47f7-bd71-e523aedfd8e2")
+		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0.2 90)
+			(at 0 0.2 0)
 			(layer "F.Fab")
 			(uuid "0207fbf3-acb2-47cc-b0c0-7b6907ac2251")
 			(effects
@@ -20749,7 +20749,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.9 -2 90)
+			(at -0.9 -2)
 			(size 0.79 1.66)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -20759,7 +20759,7 @@
 			(uuid "c44d2440-92dc-4e32-a925-7a1eb2a8290d")
 		)
 		(pad "2" smd roundrect
-			(at -0.9 2 90)
+			(at -0.9 2)
 			(size 0.79 1.66)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -20769,7 +20769,7 @@
 			(uuid "40464323-2846-4726-9e7a-c9cc53afcd7b")
 		)
 		(pad "3" smd roundrect
-			(at 0.9 2 90)
+			(at 0.9 2)
 			(size 0.79 1.66)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -20778,7 +20778,7 @@
 			(uuid "3e76108f-51bf-4fcc-8dee-21f82fa2154c")
 		)
 		(pad "4" smd roundrect
-			(at 0.9 -2 90)
+			(at 0.9 -2)
 			(size 0.79 1.66)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -21230,11 +21230,11 @@
 	(footprint "OptoDevice:OnSemi_CASE100CY"
 		(layer "F.Cu")
 		(uuid "d59293ed-facd-4987-8f97-10bbae62f400")
-		(at 29 116.675 90)
+		(at 184.333333 80)
 		(descr "OnSemi CASE 100CY, light-direction upwards, see http://www.onsemi.com/pub/Collateral/QRE1113-D.PDF")
 		(tags "refective opto couple photo coupler")
 		(property "Reference" "U4"
-			(at -2.5 0 0)
+			(at -2.5 0 90)
 			(layer "F.SilkS")
 			(uuid "3aade3ab-1f73-47bd-94ce-1b311ac3753c")
 			(effects
@@ -21245,7 +21245,7 @@
 			)
 		)
 		(property "Value" "QRE1113GR"
-			(at 0 3.9 90)
+			(at 0 3.9 0)
 			(layer "F.Fab")
 			(uuid "d64a26ed-deb7-475c-bc2e-acc4f366e164")
 			(effects
@@ -21256,7 +21256,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.onsemi.com/pub/Collateral/QRE1113-D.PDF"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -21269,7 +21269,7 @@
 			)
 		)
 		(property "Description" "Miniature Reflective Optical Object Sensor, SMD-4"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -21282,7 +21282,7 @@
 			)
 		)
 		(property "Basic" "X"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -21295,7 +21295,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C232862"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -21308,7 +21308,7 @@
 			)
 		)
 		(property "Manufacturer" "onsemi"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -21321,7 +21321,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "QRE1113GR"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -21346,16 +21346,6 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start 1.7 1.4)
-			(end 1.7 -1.4)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "270f3dd5-ed08-4447-a8ea-014013df71e9")
-		)
-		(fp_line
 			(start -1.7 1.4)
 			(end -1.7 -1.67)
 			(stroke
@@ -21364,6 +21354,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "cb644ce9-8dec-4a0d-b5b5-ff08b64e682b")
+		)
+		(fp_line
+			(start 1.7 1.4)
+			(end 1.7 -1.4)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "270f3dd5-ed08-4447-a8ea-014013df71e9")
 		)
 		(fp_poly
 			(pts
@@ -21379,16 +21379,6 @@
 		)
 		(fp_line
 			(start -1.85 -3.08)
-			(end 1.85 -3.08)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "de98eb94-44f6-42b0-b938-d4090380e02f")
-		)
-		(fp_line
-			(start -1.85 -3.08)
 			(end -1.85 3.08)
 			(stroke
 				(width 0.05)
@@ -21398,14 +21388,14 @@
 			(uuid "1a252d38-e6ba-431e-9b81-ce91c4b221f8")
 		)
 		(fp_line
-			(start 1.85 3.08)
+			(start -1.85 -3.08)
 			(end 1.85 -3.08)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "d211cad6-0a84-42fc-9378-c05e04bd065f")
+			(uuid "de98eb94-44f6-42b0-b938-d4090380e02f")
 		)
 		(fp_line
 			(start 1.85 3.08)
@@ -21418,24 +21408,14 @@
 			(uuid "63b68179-b57c-4e44-9568-30e173c6f085")
 		)
 		(fp_line
-			(start 1.6 -1.3)
-			(end 1.6 1.3)
+			(start 1.85 3.08)
+			(end 1.85 -3.08)
 			(stroke
-				(width 0.1)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "F.Fab")
-			(uuid "74f17594-7f10-44a6-8e11-d9ffc2efde00")
-		)
-		(fp_line
-			(start -1.1 -1.3)
-			(end 1.6 -1.3)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "b21827df-a0ae-443d-8c0f-3d20920edbcc")
+			(layer "F.CrtYd")
+			(uuid "d211cad6-0a84-42fc-9378-c05e04bd065f")
 		)
 		(fp_line
 			(start -1.6 -0.8)
@@ -21448,16 +21428,6 @@
 			(uuid "eb7a52a4-5528-4f5e-9dd9-42f23d3c962f")
 		)
 		(fp_line
-			(start 1.6 1.3)
-			(end -1.6 1.3)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "889ce292-3e44-4a8d-97ab-7de31b3f211b")
-		)
-		(fp_line
 			(start -1.6 1.3)
 			(end -1.6 -0.8)
 			(stroke
@@ -21467,8 +21437,38 @@
 			(layer "F.Fab")
 			(uuid "f039152c-99dd-4f43-aa0d-af189f5b2ee5")
 		)
+		(fp_line
+			(start -1.1 -1.3)
+			(end 1.6 -1.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b21827df-a0ae-443d-8c0f-3d20920edbcc")
+		)
+		(fp_line
+			(start 1.6 -1.3)
+			(end 1.6 1.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "74f17594-7f10-44a6-8e11-d9ffc2efde00")
+		)
+		(fp_line
+			(start 1.6 1.3)
+			(end -1.6 1.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "889ce292-3e44-4a8d-97ab-7de31b3f211b")
+		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0.2 90)
+			(at 0 0.2 0)
 			(layer "F.Fab")
 			(uuid "33b4bc87-d548-485b-a4ab-9bedf40758db")
 			(effects
@@ -21479,7 +21479,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.9 -2 90)
+			(at -0.9 -2)
 			(size 0.79 1.66)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -21489,7 +21489,7 @@
 			(uuid "908a0a15-9fa6-4b3b-8590-6931cc90b0a8")
 		)
 		(pad "2" smd roundrect
-			(at -0.9 2 90)
+			(at -0.9 2)
 			(size 0.79 1.66)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -21499,7 +21499,7 @@
 			(uuid "2ed7cc9f-9026-486d-ae55-e217804cabef")
 		)
 		(pad "3" smd roundrect
-			(at 0.9 2 90)
+			(at 0.9 2)
 			(size 0.79 1.66)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -21508,7 +21508,7 @@
 			(uuid "a0a55763-e80d-4a47-ba25-116f05838312")
 		)
 		(pad "4" smd roundrect
-			(at 0.9 -2 90)
+			(at 0.9 -2)
 			(size 0.79 1.66)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -24599,6 +24599,17 @@
 			)
 		)
 		(embedded_fonts no)
+	)
+	(gr_rect
+		(start 150 70)
+		(end 250 90)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "9496dddb-ed44-4ace-beca-a207fe1a7b71")
 	)
 	(embedded_fonts no)
 )
